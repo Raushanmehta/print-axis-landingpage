@@ -57,6 +57,7 @@ export default function ContactModal({
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger
+        nativeButton={!children}
         render={
           children ? (
             (triggerProps) => (
