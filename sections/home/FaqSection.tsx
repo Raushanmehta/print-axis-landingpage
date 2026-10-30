@@ -35,14 +35,14 @@ export default function FaqSection(props: FaqSectionProps) {
 
 
   return (
-    <section id="faqs" className={`relative w-full bg-[#fdfaf9] py-16 lg:py-20 scroll-mt-20 overflow-hidden ${props.className || ""}`}>
+    <section id="faqs" className={`relative w-full bg-[#fdfaf9] py-8 lg:py-12 scroll-mt-20 overflow-hidden ${props.className || ""}`}>
       {/* Background Subtle Gradient Blobs */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#f7e6e5]/40 rounded-full blur-3xl pointer-events-none -z-0" />
       <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-[#f5e4e3]/40 rounded-full blur-3xl pointer-events-none -z-0" />
 
       <div className="relative z-10 max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
           <FadeDown delay={0.05}>
             <div className="inline-flex items-center gap-3 mb-2.5">
               <span className="w-8 h-[2px] bg-[#cb5855] rounded-full inline-block" aria-hidden="true" />
@@ -68,7 +68,7 @@ export default function FaqSection(props: FaqSectionProps) {
         </div>
 
         {/* Content: FAQs Accordion centered */}
-        <div className="max-w-4xl mx-auto w-full">
+        <div className="max-w-[1420px] mx-auto w-full">
           <FadeLeft delay={0.1}>
             <div className="space-y-3.5">
               {faqList.map((faq, index) => (

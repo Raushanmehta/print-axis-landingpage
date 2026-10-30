@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { siteMap, PrintAxisNavbarData } from "@/data";
 import { ArrowRightIcon, MenuIcon, CloseIcon } from "@/components/icons";
+import ContactModal from "@/components/common/ContactModal";
 
 export interface NavItem {
   id: string;
@@ -123,12 +124,9 @@ export default function Navbar({
             })}
           </div>
 
-          {/* Desktop CTA Button from JSON */}
+          {/* Desktop CTA Button from JSON -> Opens Contact Modal */}
           <div className="hidden lg:flex items-center">
-            <QuoteButton
-              label={quoteButtonText}
-              href={quoteButtonHref}
-            />
+            <ContactModal triggerText={quoteButtonText} />
           </div>
 
           {/* Mobile Menu Hamburger Button */}
@@ -176,11 +174,9 @@ export default function Navbar({
               );
             })}
             <div className="pt-3">
-              <QuoteButton
-                label={quoteButtonText}
-                href={quoteButtonHref}
-                onClick={() => setMobileMenuOpen(false)}
-                className="w-full"
+              <ContactModal
+                triggerText={quoteButtonText}
+                triggerClassName="w-full"
               />
             </div>
           </div>
