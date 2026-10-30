@@ -1,0 +1,1138 @@
+{
+  "PrintAxis": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "topbar": "PrintAxisTopbar1",
+          "navbar": "PrintAxisNavbar1",
+          "footer": "PrintAxisFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "hero",
+                "component": "PrintAxisHero1"
+              },
+              {
+                "key": "about",
+                "component": "PrintAxisAbout1"
+              },
+              {
+                "key": "service",
+                "component": "PrintAxisService1"
+              },
+              {
+                "key": "process",
+                "component": "PrintAxisProcess1"
+              },
+              {
+                "key": "testimonial",
+                "component": "PrintAxisTestimonial1"
+              },
+              {
+                "key": "cta",
+                "component": "PrintAxisCta1"
+              },
+              {
+                "key": "blog",
+                "component": "PrintAxisBlog1"
+              },
+              {
+                "key": "faqs",
+                "component": "PrintAxisFaq1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "topbar": {
+        "variants": {
+          "PrintAxisTopbar1": {
+            "phone": "+1 000000000",
+            "phoneHref": "tel:+1000000000",
+            "email": "info@xyz.com",
+            "emailHref": "mailto:info@xyz.com",
+            "socialLinks": [
+              {
+                "icon": "facebook",
+                "href": "https://facebook.com",
+                "label": "Facebook"
+              },
+              {
+                "icon": "instagram",
+                "href": "https://instagram.com",
+                "label": "Instagram"
+              },
+              {
+                "icon": "youtube",
+                "href": "https://youtube.com",
+                "label": "YouTube"
+              },
+              {
+                "icon": "linkedin",
+                "href": "https://linkedin.com",
+                "label": "LinkedIn"
+              }
+            ]
+          }
+        }
+      },
+      "navbar": {
+        "variants": {
+          "PrintAxisNavbar1": {
+            "logo": {
+              "src": "/logo/logo-black.webp",
+              "alt": "PrintAxis - Paper & Printing Solutions",
+              "width": 260,
+              "height": 70
+            },
+            "navLinks": [
+              {
+                "id": "home",
+                "label": "Home",
+                "href": "#home"
+              },
+              {
+                "id": "about",
+                "label": "About Us",
+                "href": "#about"
+              },
+              {
+                "id": "services",
+                "label": "Services",
+                "href": "#services"
+              },
+              {
+                "id": "process",
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "id": "testimonials",
+                "label": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "id": "blog",
+                "label": "Blogs",
+                "href": "#blog"
+              },
+              {
+                "id": "faqs",
+                "label": "FAQs",
+                "href": "#faqs"
+              }
+            ],
+            "cta": {
+              "label": "GET A QUOTE",
+              "href": "#cta"
+            }
+          }
+        }
+      },
+      "footer": {
+        "variants": {
+          "PrintAxisFooter1": {
+            "logo": {
+              "src": "/logo/logo-white.webp",
+              "alt": "PrintAxis - Paper & Printing Solutions",
+              "width": 260,
+              "height": 70
+            },
+            "description": "We deliver high-quality printing and customized paper solutions for businesses, events, and personal needs with precision, creativity, and care.",
+            "socialLinks": [
+              {
+                "icon": "facebook",
+                "href": "https://facebook.com",
+                "label": "Facebook"
+              },
+              {
+                "icon": "instagram",
+                "href": "https://instagram.com",
+                "label": "Instagram"
+              },
+              {
+                "icon": "linkedin",
+                "href": "https://linkedin.com",
+                "label": "LinkedIn"
+              },
+              {
+                "icon": "youtube",
+                "href": "https://youtube.com",
+                "label": "YouTube"
+              }
+            ],
+            "quickLinks": [
+              {
+                "label": "Home",
+                "href": "#home"
+              },
+              {
+                "label": "About Us",
+                "href": "#about"
+              },
+              {
+                "label": "Our Services",
+                "href": "#services"
+              },
+              {
+                "label": "Our Process",
+                "href": "#process"
+              },
+              {
+                "label": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "label": "Latest Blogs",
+                "href": "#blog"
+              },
+              {
+                "label": "FAQs",
+                "href": "#faqs"
+              },
+              {
+                "label": "Get A Quote",
+                "href": "#cta"
+              }
+            ],
+            "services": [
+              {
+                "label": "Digital Printing",
+                "href": "#services"
+              },
+              {
+                "label": "3D Printing",
+                "href": "#services"
+              },
+              {
+                "label": "Offset Printing",
+                "href": "#services"
+              },
+              {
+                "label": "Design & Branding",
+                "href": "#services"
+              },
+              {
+                "label": "Packaging & Boxes",
+                "href": "#services"
+              },
+              {
+                "label": "Apparel Printing",
+                "href": "#services"
+              }
+            ],
+            "titles": {
+              "quickLinks": "Quick Links",
+              "services": "Our Services",
+              "contact": "Get In Touch",
+              "callUs": "Call Us",
+              "emailUs": "Email Us",
+              "visitUs": "Visit Us"
+            },
+            "contactInfo": {
+              "phone": "+1 000000000",
+              "phoneHref": "tel:+1000000000",
+              "email": "info@xyz.com",
+              "emailHref": "mailto:info@xyz.com",
+              "addressLine1": "3170 Rosewood Lane Unit 200,",
+              "addressLine2": "Beverly Hills, CA 90210"
+            },
+            "copyrightText": "© 2026 PrintAxis. All Rights Reserved. Powered by Lestow"
+          }
+        }
+      },
+      "hero": {
+        "variants": {
+          "PrintAxisHero1": {
+            "tagline": "PRINTING SOLUTIONS",
+            "titlePart1": "High Quality",
+            "titleHighlight": "Printing",
+            "titlePart2": "For Your Business",
+            "description": "From branding and packaging to marketing materials, we deliver premium printing solutions that make your brand stand out.",
+            "quoteButton": {
+              "label": "GET A QUOTE",
+              "href": "#cta"
+            },
+            "servicesButton": {
+              "label": "OUR SERVICES",
+              "href": "#services"
+            },
+            "backgroundImage": "/images/hero-banner.webp",
+            "features": [
+              {
+                "id": "quality",
+                "line1": "Premium",
+                "line2": "Print Quality",
+                "icon": "quality"
+              },
+              {
+                "id": "speed",
+                "line1": "Fast",
+                "line2": "Turnaround",
+                "icon": "speed"
+              },
+              {
+                "id": "support",
+                "line1": "Dedicated",
+                "line2": "Support",
+                "icon": "support"
+              }
+            ]
+          }
+        }
+      },
+      "about": {
+        "variants": {
+          "PrintAxisAbout1": {
+            "tagline": "ABOUT PRINTAXIS",
+            "titlePart1": "Print Solutions",
+            "titleHighlight": "Built for Your Brand",
+            "description": "At PrintAxis, we combine creativity, technology, and craftsmanship to deliver high-quality printing solutions for businesses of all sizes. From marketing materials to custom packaging, we help brands communicate better, stand out, and make a lasting impression.",
+            "button": {
+              "label": "EXPLORE SERVICES",
+              "href": "#services"
+            },
+            "largeImage": {
+              "src": "/images/about-machine.webp",
+              "alt": "PrintAxis Industrial Digital Printing Press Machine"
+            },
+            "smallImage1": {
+              "src": "/images/about-brochures.webp",
+              "alt": "PrintAxis Ideas Printed Brighter brochures"
+            },
+            "smallImage2": {
+              "src": "/images/about-packaging.webp",
+              "alt": "PrintAxis Packaging & Mailing Boxes"
+            }
+          }
+        }
+      },
+      "service": {
+        "variants": {
+          "PrintAxisService1": {
+            "tagline": "OUR SERVICES",
+            "titlePart1": "Complete Printing",
+            "titleHighlight1": "Solutions for",
+            "titleHighlight2": "Your Business",
+            "description": "From custom printing to creative design, we deliver high-quality solutions that help your brand make a lasting impression.",
+            "exploreButton": {
+              "label": "REQUEST CUSTOM PRINT",
+              "href": "#cta"
+            },
+            "servicesList": [
+              {
+                "id": "printing-services",
+                "title": "Printing Services",
+                "mainTitlePart1": "Digital & Commercial Printing",
+                "mainTitleHighlight": "Services",
+                "description": "High-quality printing for brochures, flyers, banners crafted to make your brand stand out.",
+                "imageSrc": "/images/service-printing.webp",
+                "icon": "printer",
+                "href": "#cta",
+                "otherServicesTitle": "Other Services",
+                "detailDescription": "Experience crisp, high-definition digital and commercial printing tailored for modern businesses. From high-impact marketing collateral to vibrant flyers, brochures, and corporate documents, our advanced digital presses deliver rich color fidelity with rapid same-day turnaround.",
+                "heroImage": "/images/service-printing.webp",
+                "heroImageAlt": "High-speed modern digital printing production line",
+                "features": [
+                  {
+                    "id": "quality",
+                    "title": "Ultra-HD Print Precision",
+                    "description": "Razor-sharp 2400 DPI resolution for crisp typography and vivid graphics.",
+                    "icon": "quality"
+                  },
+                  {
+                    "id": "custom",
+                    "title": "Custom Paper Stocks",
+                    "description": "Choose from silky matte, high-gloss UV, and uncoated recycled stocks.",
+                    "icon": "custom"
+                  },
+                  {
+                    "id": "speed",
+                    "title": "Rapid Turnaround",
+                    "description": "Same-day digital printing with zero plate setup delays for urgent orders.",
+                    "icon": "speed"
+                  }
+                ],
+                "processTagline": "OUR PROCESS",
+                "processTitle": "How It Works",
+                "processSubtitle": "We make digital printing simple and reliable. From file upload to precision press and doorstep delivery.",
+                "processSteps": [
+                  {
+                    "stepNumber": "Step 01",
+                    "title": "Submit Artwork",
+                    "description": "Upload your print-ready PDF files or collaborate with our designers.",
+                    "icon": "share-design"
+                  },
+                  {
+                    "stepNumber": "Step 02",
+                    "title": "Digital Proofing",
+                    "description": "Receive a high-resolution proof to verify colors, trim, and alignment.",
+                    "icon": "preview"
+                  },
+                  {
+                    "stepNumber": "Step 03",
+                    "title": "High-Speed Press",
+                    "description": "Printed with calibrated pigment inks for stunning clarity and contrast.",
+                    "icon": "printing"
+                  },
+                  {
+                    "stepNumber": "Step 04",
+                    "title": "Finish & Ship",
+                    "description": "Trimmed, bound, packaged and safely dispatched to your address.",
+                    "icon": "delivery"
+                  }
+                ]
+              },
+              {
+                "id": "3d-printing",
+                "title": "3D Printing Service",
+                "mainTitlePart1": "3D Printing & Rapid",
+                "mainTitleHighlight": "Prototyping",
+                "description": "Bring your ideas to life with precision 3D printing for prototypes, models and custom products.",
+                "imageSrc": "/images/service-3d-printing.webp",
+                "icon": "3d",
+                "href": "#cta",
+                "otherServicesTitle": "Other Services",
+                "detailDescription": "Accelerate product development cycles and test concepts rapidly with high-precision 3D rapid prototyping. Using state-of-the-art SLA, SLS, and FDM additive manufacturing, we support engineering validation, architectural models, and custom functional parts with millimeter accuracy.",
+                "heroImage": "/images/service-3d-printing.webp",
+                "heroImageAlt": "High precision 3D additive manufacturing prototyping",
+                "features": [
+                  {
+                    "id": "quality",
+                    "title": "Micron Layer Precision",
+                    "description": "Ultra-fine layer resolution capturing the most complex internal geometries.",
+                    "icon": "quality"
+                  },
+                  {
+                    "id": "custom",
+                    "title": "Engineering Materials",
+                    "description": "Tough ABS-like, flexible TPU, nylon, and heat-resistant engineering resins.",
+                    "icon": "custom"
+                  },
+                  {
+                    "id": "speed",
+                    "title": "Rapid Turnaround",
+                    "description": "Hold your CAD models in your hands within 24 to 48 hours.",
+                    "icon": "speed"
+                  }
+                ],
+                "processTagline": "OUR PROCESS",
+                "processTitle": "How It Works",
+                "processSubtitle": "From CAD model to physical functional prototype with industrial additive precision.",
+                "processSteps": [
+                  {
+                    "stepNumber": "Step 01",
+                    "title": "Upload 3D File",
+                    "description": "Send your STL, STEP, or OBJ model for immediate geometric review.",
+                    "icon": "share-design"
+                  },
+                  {
+                    "stepNumber": "Step 02",
+                    "title": "Slicing & Setup",
+                    "description": "We analyze wall thickness, overhangs, and optimize print orientation.",
+                    "icon": "preview"
+                  },
+                  {
+                    "stepNumber": "Step 03",
+                    "title": "Additive Print",
+                    "description": "Manufactured on industrial SLA/SLS machines for structural strength.",
+                    "icon": "printing"
+                  },
+                  {
+                    "stepNumber": "Step 04",
+                    "title": "Post-Processing",
+                    "description": "Support removal, UV curing, surface sanding, and secure delivery.",
+                    "icon": "delivery"
+                  }
+                ]
+              },
+              {
+                "id": "offset-printing",
+                "title": "Offset Printing",
+                "mainTitlePart1": "High-Volume Offset",
+                "mainTitleHighlight": "Printing",
+                "description": "Cost-effective and consistent printing for bulk orders with exceptional color accuracy.",
+                "imageSrc": "/images/service-offset.webp",
+                "icon": "offset",
+                "href": "#cta",
+                "otherServicesTitle": "Other Services",
+                "detailDescription": "The premier solution for large-scale commercial print runs. Our multi-unit Heidelberg offset presses guarantee unbeatable unit economy, flawless Pantone spot color matching, and consistent ink coverage across hundreds of thousands of catalogs, books, magazines, and marketing collaterals.",
+                "heroImage": "/images/service-offset.webp",
+                "heroImageAlt": "Industrial multi-color offset lithography printing press",
+                "features": [
+                  {
+                    "id": "quality",
+                    "title": "Pantone Spot Matching",
+                    "description": "Exact PMS spot colors and consistent ink density across massive runs.",
+                    "icon": "quality"
+                  },
+                  {
+                    "id": "custom",
+                    "title": "Custom Finishes",
+                    "description": "Spot UV, foil stamping, soft-touch lamination, and specialty varnishes.",
+                    "icon": "custom"
+                  },
+                  {
+                    "id": "speed",
+                    "title": "High-Speed Capacity",
+                    "description": "Blazing press speeds over 15,000 sheets per hour for bulk distribution.",
+                    "icon": "speed"
+                  }
+                ],
+                "processTagline": "OUR PROCESS",
+                "processTitle": "How It Works",
+                "processSubtitle": "Precision offset lithography built for massive volume and unmatched unit economy.",
+                "processSteps": [
+                  {
+                    "stepNumber": "Step 01",
+                    "title": "Prepress & Proof",
+                    "description": "Digital imposition, trapping, and CTP aluminum plate imaging.",
+                    "icon": "share-design"
+                  },
+                  {
+                    "stepNumber": "Step 02",
+                    "title": "Color Balancing",
+                    "description": "Ink fountain calibration for laser-accurate Pantone hue matching.",
+                    "icon": "preview"
+                  },
+                  {
+                    "stepNumber": "Step 03",
+                    "title": "Offset Run",
+                    "description": "High-speed multi-color printing with consistent sheet-fed registration.",
+                    "icon": "printing"
+                  },
+                  {
+                    "stepNumber": "Step 04",
+                    "title": "Cutting & Packing",
+                    "description": "Die-cutting, folding, saddle stitching, and palletized delivery.",
+                    "icon": "delivery"
+                  }
+                ]
+              },
+              {
+                "id": "design-branding",
+                "title": "Design & Branding",
+                "mainTitlePart1": "Creative Design & Brand",
+                "mainTitleHighlight": "Identity",
+                "description": "Creative design solutions including logo, stationery to elevate your brand identity.",
+                "imageSrc": "/images/service-branding.webp",
+                "icon": "design",
+                "href": "#cta",
+                "otherServicesTitle": "Other Services",
+                "detailDescription": "Build a memorable, cohesive brand presence that commands authority in your market. Our seasoned creative design team crafts bespoke visual identities, typography guidelines, vector logos, and complete corporate stationery kits engineered to connect with your target audience.",
+                "heroImage": "/images/service-branding.webp",
+                "heroImageAlt": "Creative brand identity mockup and design stationery",
+                "features": [
+                  {
+                    "id": "quality",
+                    "title": "Strategic Identity",
+                    "description": "Distinctive visual systems crafted around your positioning and values.",
+                    "icon": "quality"
+                  },
+                  {
+                    "id": "custom",
+                    "title": "Full Collateral Suite",
+                    "description": "Logo, stationery, business cards, letterheads, and brand guidelines.",
+                    "icon": "custom"
+                  },
+                  {
+                    "id": "speed",
+                    "title": "Production-Ready Files",
+                    "description": "Source vector files in CMYK and RGB optimized for both print and web.",
+                    "icon": "speed"
+                  }
+                ],
+                "processTagline": "OUR PROCESS",
+                "processTitle": "How It Works",
+                "processSubtitle": "We turn your brand story into unforgettable visual identity and marketing collateral.",
+                "processSteps": [
+                  {
+                    "stepNumber": "Step 01",
+                    "title": "Brand Discovery",
+                    "description": "We analyze your audience, competitive landscape, and brand vision.",
+                    "icon": "share-design"
+                  },
+                  {
+                    "stepNumber": "Step 02",
+                    "title": "Concept Exploration",
+                    "description": "Designers present multiple distinct logo and brand style routes.",
+                    "icon": "preview"
+                  },
+                  {
+                    "stepNumber": "Step 03",
+                    "title": "Refinement & Polish",
+                    "description": "Iterate on typography, color palettes, and real-world mockups.",
+                    "icon": "printing"
+                  },
+                  {
+                    "stepNumber": "Step 04",
+                    "title": "Asset Delivery",
+                    "description": "Full brand book, vector master files, and print-ready templates.",
+                    "icon": "delivery"
+                  }
+                ]
+              },
+              {
+                "id": "packaging-boxes",
+                "title": "Packaging & Boxes",
+                "mainTitlePart1": "Custom Packaging &",
+                "description": "Custom branded boxes, corrugated mailers, and premium product packaging designed to impress.",
+                "imageSrc": "/images/about-packaging.webp",
+                "icon": "packaging",
+                "href": "#cta",
+                "otherServicesTitle": "Other Services",
+                "detailDescription": "Elevate your product presentation and transform deliveries into an unforgettable unboxing event. We manufacture tailored corrugated mailers, luxury rigid gift boxes with magnetic closures, and folding cartons with foil stamping, embossing, and custom-cut protective foam inserts.",
+                "heroImage": "/images/about-packaging.webp",
+                "heroImageAlt": "Luxury custom rigid packaging box with embossed branding",
+                "features": [
+                  {
+                    "id": "quality",
+                    "title": "Structural Integrity",
+                    "description": "Heavy-duty fluted corrugated boards tested for shipping transit safety.",
+                    "icon": "quality"
+                  },
+                  {
+                    "id": "custom",
+                    "title": "Luxury Embellishments",
+                    "description": "Spot UV, gold/silver foil stamping, soft-touch matte lamination, and emboss.",
+                    "icon": "custom"
+                  },
+                  {
+                    "id": "speed",
+                    "title": "Custom Dieline Fit",
+                    "description": "Tailored dielines and custom foam inserts engineered to fit your product.",
+                    "icon": "speed"
+                  }
+                ],
+                "processTagline": "OUR PROCESS",
+                "processTitle": "How It Works",
+                "processSubtitle": "Custom packaging engineered to protect your product and wow your customers.",
+                "processSteps": [
+                  {
+                    "stepNumber": "Step 01",
+                    "title": "Dieline & Sizing",
+                    "description": "We draft custom structural dielines matching your product specs.",
+                    "icon": "share-design"
+                  },
+                  {
+                    "stepNumber": "Step 02",
+                    "title": "3D Unboxing Proof",
+                    "description": "Approve digital 3D unboxing renders and structural sample prototypes.",
+                    "icon": "preview"
+                  },
+                  {
+                    "stepNumber": "Step 03",
+                    "title": "Printing & Die-Cut",
+                    "description": "High-definition vibrant printing, foil stamping, and precision cutting.",
+                    "icon": "printing"
+                  },
+                  {
+                    "stepNumber": "Step 04",
+                    "title": "Assembly & Ship",
+                    "description": "Flat-packed or pre-assembled boxes shipped securely to your warehouse.",
+                    "icon": "delivery"
+                  }
+                ]
+              },
+              {
+                "id": "apparel-printing",
+                "title": "T-Shirt & Apparel Printing",
+                "mainTitlePart1": "T-Shirt & Apparel",
+                "mainTitleHighlight": "Printing",
+                "description": "Vibrant direct-to-garment and screen printing for company uniforms, events, and personal merchandise.",
+                "imageSrc": "/images/why-choose-tshirts.webp",
+                "icon": "apparel",
+                "href": "#cta",
+                "otherServicesTitle": "Other Services",
+                "detailDescription": "Bring your ideas to life with our premium T-shirt and custom apparel printing services. We offer high-quality Direct-to-Garment (DTG), screen printing, and sublimation for corporate uniforms, promotional event merchandise, sports teams, and personal apparel with vibrant, wash-resistant colors.",
+                "heroImage": "/images/service-tshirt-machine.webp",
+                "heroImageAlt": "Direct-to-garment digital flatbed printing machine printing graphic on t-shirt",
+                "features": [
+                  {
+                    "id": "quality",
+                    "title": "Vibrant Wash-Resistant Inks",
+                    "description": "Oeko-Tex certified inks that withstand dozens of washes without fading.",
+                    "icon": "quality"
+                  },
+                  {
+                    "id": "custom",
+                    "title": "Premium Combed Cotton",
+                    "description": "Soft, breathable, preshrunk ring-spun cotton fabrics in all sizes.",
+                    "icon": "custom"
+                  },
+                  {
+                    "id": "speed",
+                    "title": "Flexible Order Quantities",
+                    "description": "From a single custom sample to bulk corporate merchandise runs.",
+                    "icon": "speed"
+                  }
+                ],
+                "processTagline": "OUR PROCESS",
+                "processTitle": "How It Works",
+                "processSubtitle": "We make custom apparel printing simple, fast, and high quality.",
+                "processSteps": [
+                  {
+                    "stepNumber": "Step 01",
+                    "title": "Share Your Design",
+                    "description": "Send us your logo, artwork, or vector graphic ideas.",
+                    "icon": "share-design"
+                  },
+                  {
+                    "stepNumber": "Step 02",
+                    "title": "Get a Preview",
+                    "description": "We create a digital t-shirt mockup for your sizing approval.",
+                    "icon": "preview"
+                  },
+                  {
+                    "stepNumber": "Step 03",
+                    "title": "Printing Process",
+                    "description": "Direct-to-garment or screen printed with rich, durable inks.",
+                    "icon": "printing"
+                  },
+                  {
+                    "stepNumber": "Step 04",
+                    "title": "Delivery",
+                    "description": "Your custom apparel is packaged, tagged, and delivered on time.",
+                    "icon": "delivery"
+                  }
+                ]
+              }
+            ],
+            "otherServices": [
+              {
+                "id": "digital-printing",
+                "name": "Digital & Commercial Printing",
+                "image": "/images/service-printing.webp",
+                "href": "/services/digital-printing"
+              },
+              {
+                "id": "3d-printing",
+                "name": "3D Printing & Prototyping",
+                "image": "/images/service-3d-printing.webp",
+                "href": "/services/3d-printing"
+              },
+              {
+                "id": "offset-printing",
+                "name": "Bulk Offset Printing",
+                "image": "/images/service-offset.webp",
+                "href": "/services/offset-printing"
+              },
+              {
+                "id": "design-branding",
+                "name": "Creative Design & Branding",
+                "image": "/images/service-branding.webp",
+                "href": "/services/design-branding"
+              },
+              {
+                "id": "custom-packaging",
+                "name": "Custom Packaging & Boxes",
+                "image": "/images/about-packaging.webp",
+                "href": "/services/custom-packaging"
+              },
+              {
+                "id": "apparel-printing",
+                "name": "Custom Apparel & T-Shirts",
+                "image": "/images/why-choose-tshirts.webp",
+                "href": "/services/apparel-printing"
+              }
+            ],
+            "needHelpCta": {
+              "ctaTitle": "Need Help Custom",
+              "ctaDescription": "Talk to our printing expert to get assistance with your printing needs.",
+              "ctaImageSrc": "/images/why-choose-tshirts.webp",
+              "ctaImageAlt": "Custom printed folded t-shirts stack",
+              "ctaButtonText": "Contact Us",
+              "ctaButtonHref": "/contact"
+            }
+          }
+        }
+      },
+      "process": {
+        "variants": {
+          "PrintAxisProcess1": {
+            "tagline": "HOW WE DO",
+            "titlePart1": "From Idea to Print",
+            "titleHighlight": "Our Simple Process",
+            "subtitle": "We follow a streamlined process to deliver high-quality printing solutions with precision, speed, and complete customer satisfaction.",
+            "steps": [
+              {
+                "stepNumber": "01",
+                "title": "Consultation",
+                "description": "We understand your requirements, ideas and goals to suggest the best solution.",
+                "imageSrc": "/images/process/process-consultation.webp"
+              },
+              {
+                "stepNumber": "02",
+                "title": "Design & Proof",
+                "description": "Our creative team creates designs and shares proofs for your approval.",
+                "imageSrc": "/images/process/process-design.webp"
+              },
+              {
+                "stepNumber": "03",
+                "title": "Printing",
+                "description": "Using advanced technology, we print with precision and vibrant quality.",
+                "imageSrc": "/images/process/process-printing.webp"
+              },
+              {
+                "stepNumber": "04",
+                "title": "Delivery",
+                "description": "Your order is carefully packaged and delivered on time, anywhere you need.",
+                "imageSrc": "/images/process/process-delivery.webp"
+              }
+            ]
+          }
+        }
+      },
+      "testimonial": {
+        "variants": {
+          "PrintAxisTestimonial1": {
+            "tagline": "TESTIMONIALS",
+            "titlePart1": "What Our",
+            "titleHighlight": "Clients Say",
+            "subtitle": "We take pride in delivering high-quality printing solutions that help businesses grow. Here's what our clients have to say about working with us.",
+            "testimonialsList": [
+              {
+                "id": "rohit-mehta",
+                "name": "Rohit Mehta",
+                "role": "Founder, Mehta Creations",
+                "quote": "PrintAxis has been our go-to printing partner for all our marketing materials. The quality, attention to detail, and timely delivery are exceptional. Our brand looks more professional thanks to their amazing work.",
+                "rating": 5,
+                "imageSrc": "/images/testimonial-client.webp"
+              },
+              {
+                "id": "ananya-sharma",
+                "name": "Ananya Sharma",
+                "role": "Brand Director, Apex Studio",
+                "quote": "Working with PrintAxis transformed our packaging presentations. Their precision, color matching, and premium paper selections helped us win major retail partners with confidence.",
+                "rating": 5,
+                "imageSrc": "/images/testimonial-client-2.webp"
+              },
+              {
+                "id": "vikram-malhotra",
+                "name": "Vikram Malhotra",
+                "role": "Managing Director, Vista Media",
+                "quote": "The speed and consistency of PrintAxis are unmatched. Whether large-format banners or urgent corporate brochures, they execute every project flawlessly with outstanding customer service.",
+                "rating": 5,
+                "imageSrc": "/images/testimonial-client-3.webp"
+              }
+            ]
+          }
+        }
+      },
+      "cta": {
+        "variants": {
+          "PrintAxisCta1": {
+            "titlePart1": "Let’s Bring Your",
+            "titleHighlight": "Ideas to Print",
+            "description": "Custom printing solutions for your business, events and personal needs. Get high-quality prints that make an impact.",
+            "button": {
+              "label": "Request Free Quote",
+              "href": "#cta"
+            },
+            "backgroundImageSrc": "/images/cta-banner.webp"
+          }
+        }
+      },
+      "blog": {
+        "variants": {
+          "PrintAxisBlog1": {
+            "tagline": "OUR BLOGS",
+            "titlePart1": "Insights &",
+            "titleHighlight": "Printing Ideas",
+            "subtitle": "Explore tips, trends and ideas to make the most of your printing needs and grow your brand with creativity.",
+            "blogPosts": [
+              {
+                "id": "business-card-ideas-2025",
+                "date": "15 Mar 2025",
+                "title": "5 Creative Business Card Design Ideas for 2025",
+                "description": "Discover innovative business card designs that leave a lasting impression and help your brand stand out.",
+                "imageSrc": "/images/blog-business-cards.webp",
+                "href": "#blog",
+                "authorName": "PrintAxis Team",
+                "publishDate": "March 15, 2025",
+                "readTime": "5 min read",
+                "authorAvatar": "/images/testimonial-client.webp",
+                "recentArticlesTitle": "Recent Articles",
+                "leadParagraph": "In an increasingly screen-dominated world, handing someone a tangible, meticulously crafted business card creates an irreplaceable personal connection that digital contacts simply cannot replicate.",
+                "secondParagraph": "In 2025, modern business cards are evolving into miniature works of art—combining tactile paper textures, interactive NFC chips, metallic foil accents, and minimalist typography that demand attention and leave a lasting impression.",
+                "quote": {
+                  "text": "A business card isn't just your contact information; it is your brand's first physical handshake in the real world.",
+                  "author": "PrintAxis Design Studio"
+                },
+                "sections": [
+                  {
+                    "heading": "1. Spot UV & Raised Foil Stamping for Tactile Depth",
+                    "text": "Contrasting silky matte laminations with glossy spot UV or metallic foil highlights turns logos and typography into tactile focal points. When prospective clients run their fingers over your card, the physical dimension builds instant credibility and subconscious perception of luxury.",
+                    "image": "/images/about-packaging.webp",
+                    "imageAlt": "Luxury business card with raised spot UV finish"
+                  },
+                  {
+                    "heading": "2. Heavyweight Cotton & Eco-Friendly Textured Cardstock",
+                    "text": "Thick, multi-layered 600+ GSM cotton paper and recycled seed-embedded cardstocks are taking center stage. Heavyweight stock conveys permanence and durability, ensuring your card never bends in a wallet or gets tossed aside after a conference.",
+                    "image": "/images/about-brochures.webp",
+                    "imageAlt": "Eco-friendly thick cotton cardstock business card"
+                  }
+                ]
+              },
+              {
+                "id": "why-brochures-work-digital-age",
+                "date": "10 Mar 2025",
+                "title": "Why Brochures Still Work in the Digital Age",
+                "description": "Learn how professionally printed brochures can still create real impact in today’s digital world.",
+                "imageSrc": "/images/blog-brochures.webp",
+                "href": "#blog",
+                "authorName": "PrintAxis Team",
+                "publishDate": "March 10, 2025",
+                "readTime": "4 min read",
+                "authorAvatar": "/images/testimonial-client-2.webp",
+                "recentArticlesTitle": "Recent Articles",
+                "leadParagraph": "While digital advertising suffers from banner blindness and fleeting clicks, professionally printed brochures command focused, distraction-free attention.",
+                "secondParagraph": "Physical brochures engage multiple sensory touchpoints—the satisfying weight of the paper, the crisp fold, and vivid color reproduction—delivering a brand message that lingers on office desks and coffee tables long after an email is forgotten.",
+                "quote": {
+                  "text": "Print creates a cognitive footprint that digital screens rarely achieve. When people hold your brochure, they spend undivided minutes engaging with your story.",
+                  "author": "Marketing & Print Strategy Team"
+                },
+                "sections": [
+                  {
+                    "heading": "1. Multi-Sensory Engagement & Information Retention",
+                    "text": "Neuroscience studies demonstrate that readers retain information significantly better when reading physical print compared to digital screens. A well-structured trifold or gatefold brochure allows potential clients to browse complex solutions at their own pace without pop-ups or notifications.",
+                    "image": "/images/about-brochures.webp",
+                    "imageAlt": "Trifold corporate marketing brochure design"
+                  },
+                  {
+                    "heading": "2. High-Impact Presence at Trade Shows and Direct Meetings",
+                    "text": "Leaving behind a high-grade brochure after an executive pitch or trade show ensures decision-makers have a tangible reference guide. Combined with modern QR codes, printed brochures bridge the gap between physical interaction and seamless digital conversion.",
+                    "image": "/images/service-printing.webp",
+                    "imageAlt": "High quality offset printed corporate brochures"
+                  }
+                ]
+              },
+              {
+                "id": "custom-packaging-brand-value",
+                "date": "05 Mar 2025",
+                "title": "How Custom Packaging Boosts Your Brand Value",
+                "description": "See how custom packaging can enhance your product presentation and build stronger customer trust.",
+                "imageSrc": "/images/blog-packaging.webp",
+                "href": "#blog",
+                "authorName": "PrintAxis Team",
+                "publishDate": "March 05, 2025",
+                "readTime": "6 min read",
+                "authorAvatar": "/images/testimonial-client-3.webp",
+                "recentArticlesTitle": "Recent Articles",
+                "leadParagraph": "In today's competitive e-commerce and retail marketplace, packaging is no longer just a protective container—it is the very first physical interaction customers experience with your brand identity.",
+                "secondParagraph": "From custom corrugated mailer boxes to luxury rigid gift boxes with foil stamping, the sensory thrill of unboxing directly impacts customer satisfaction, organic social media shares, and repeat purchase rates.",
+                "quote": {
+                  "text": "Great packaging turns a routine delivery into a memorable branded event. Customers don't just receive a product; they unwrap an experience.",
+                  "author": "PrintAxis Packaging Innovation Team"
+                },
+                "sections": [
+                  {
+                    "heading": "1. The Unboxing Phenomenon and Perceived Value",
+                    "text": "Over 70% of consumers state that packaging design directly influences their perception of product quality. High-definition vibrant printing, custom interior inserts, and embossed logos instantly position your merchandise as premium and trustworthy.",
+                    "image": "/images/about-packaging.webp",
+                    "imageAlt": "Premium custom unboxing mailer box"
+                  },
+                  {
+                    "heading": "2. Sustainable Materials That Modern Consumers Demand",
+                    "text": "Eco-conscious consumers actively seek responsible brands. Utilizing FSC-certified kraft stock, biodegradable water-based inks, and recyclable finishes allows companies to demonstrate environmental responsibility without sacrificing striking visual appeal.",
+                    "image": "/images/service-offset.webp",
+                    "imageAlt": "Sustainable eco-friendly packaging printing"
+                  }
+                ]
+              },
+              {
+                "id": "offset-vs-digital-printing-guide",
+                "date": "28 Feb 2025",
+                "title": "Offset vs Digital Printing: The Complete Guide",
+                "description": "Find out which printing method suits your business quantity, budget, and quality requirements best.",
+                "imageSrc": "/images/service-offset.webp",
+                "href": "#blog",
+                "authorName": "PrintAxis Team",
+                "publishDate": "February 28, 2025",
+                "readTime": "5 min read",
+                "authorAvatar": "/images/testimonial-client.webp",
+                "recentArticlesTitle": "Recent Articles",
+                "leadParagraph": "Choosing between offset lithography and digital printing is one of the most critical decisions in commercial print production, directly affecting your budget, turnaround time, and finish quality.",
+                "secondParagraph": "While digital printing offers lightning-fast setup and cost-effective short runs with variable data capabilities, offset printing reigns supreme for high-volume orders requiring exact Pantone spot color matching and superior cost efficiency per unit.",
+                "quote": {
+                  "text": "Understanding the volume threshold between digital flexibility and offset cost-efficiency ensures you always get maximum quality at the lowest unit price.",
+                  "author": "PrintAxis Production Specialists"
+                },
+                "sections": [
+                  {
+                    "heading": "1. When Digital Printing Is the Smarter Choice",
+                    "text": "Digital printing requires zero plate setup, making it ideal for orders under 500 to 1,000 units, rapid same-day turnaround, and personalized marketing materials where each print needs custom names, barcodes, or addresses.",
+                    "image": "/images/about-machine.webp",
+                    "imageAlt": "High-speed modern digital printing equipment"
+                  },
+                  {
+                    "heading": "2. The Incomparable Quality and Volume Scale of Offset",
+                    "text": "When printing thousands of catalogs, books, or folding cartons, offset printing offers unmatched unit economics. The upfront setup is offset by blazing print speeds, razor-sharp detail reproduction, and flawless Pantone ink consistency across massive runs.",
+                    "image": "/images/service-printing.webp",
+                    "imageAlt": "Industrial high-capacity offset printing press"
+                  }
+                ]
+              },
+              {
+                "id": "corporate-merchandise-brand-identity",
+                "date": "20 Feb 2025",
+                "title": "Building Brand Loyalty with Corporate Merchandise",
+                "description": "Explore high-impact merchandise strategies to build enduring relationships with your clients and team.",
+                "imageSrc": "/images/service-branding.webp",
+                "href": "#blog",
+                "authorName": "PrintAxis Team",
+                "publishDate": "February 20, 2025",
+                "readTime": "4 min read",
+                "authorAvatar": "/images/testimonial-client-2.webp",
+                "recentArticlesTitle": "Recent Articles",
+                "leadParagraph": "Corporate promotional merchandise has evolved far beyond throwaway cheap pens and generic stress balls into premium branded lifestyle products that people genuinely love using every day.",
+                "secondParagraph": "From customized heavyweight apparel and insulated ceramic drinkware to foil-stamped vegan leather notebooks, high-utility branded merchandise turns employees, partners, and clients into passionate brand ambassadors.",
+                "quote": {
+                  "text": "When merchandise delivers real utility and aesthetic pride, your brand becomes an integral part of your client's daily workflow.",
+                  "author": "Corporate Branding Division"
+                },
+                "sections": [
+                  {
+                    "heading": "1. Premium Quality Over Discardable Quantity",
+                    "text": "Investing in high-grade materials—such as ring-spun organic cotton t-shirts, double-wall stainless steel tumblers, and durable canvas tote bags—ensures your branded items are worn and used regularly for years, generating hundreds of positive brand impressions.",
+                    "image": "/images/contact-mug.webp",
+                    "imageAlt": "Custom branded corporate mugs and promotional merchandise"
+                  },
+                  {
+                    "heading": "2. Employee Onboarding Kits and Client Appreciation",
+                    "text": "Curated welcome swags build immediate emotional connection and belonging for new team members. Similarly, high-end VIP appreciation packages with personalized embossed items strengthen client retention and strategic partnerships.",
+                    "image": "/images/service-branding.webp",
+                    "imageAlt": "Corporate onboarding kit and branded merchandise gear"
+                  }
+                ]
+              },
+              {
+                "id": "3d-printing-prototypes-future",
+                "date": "12 Feb 2025",
+                "title": "How 3D Printing & Prototyping Revolutionize Product Design",
+                "description": "Accelerate product development cycles and test concepts rapidly with high-precision 3D rapid prototyping.",
+                "imageSrc": "/images/service-3d-printing.webp",
+                "href": "#blog",
+                "authorName": "PrintAxis Team",
+                "publishDate": "February 12, 2025",
+                "readTime": "5 min read",
+                "authorAvatar": "/images/testimonial-client-3.webp",
+                "recentArticlesTitle": "Recent Articles",
+                "leadParagraph": "The gap between digital concept and physical reality has never been narrower thanks to modern industrial 3D printing and additive prototyping technologies.",
+                "secondParagraph": "Whether developing consumer electronics enclosures, mechanical engineering components, or custom ergonomic packaging, 3D prototyping enables designers to test form, fit, and function in hours instead of weeks—drastically slashing time-to-market and tooling costs.",
+                "quote": {
+                  "text": "Fail fast, iterate faster. High-precision rapid 3D printing empowers designers to hold their CAD models in their hands by tomorrow morning.",
+                  "author": "Advanced Prototyping Lab"
+                },
+                "sections": [
+                  {
+                    "heading": "1. Drastically Reducing Product Development Lifecycles",
+                    "text": "Traditional injection-mold tooling can take months and cost tens of thousands of dollars. With SLA, SLS, and FDM 3D printing, engineering teams can validate multiple functional iterations within a single week, uncovering design flaws before committing to mass production.",
+                    "image": "/images/service-3d-printing.webp",
+                    "imageAlt": "High precision 3D rapid prototype print"
+                  },
+                  {
+                    "heading": "2. Engineering Materials for Real Functional Testing",
+                    "text": "Modern 3D printing is not just for fragile display models. Utilizing tough engineering resins, carbon-fiber reinforced filaments, and flexible TPU materials, prototypes can withstand rigorous stress tests, thermal evaluations, and real-world ergonomics trials.",
+                    "image": "/images/about-machine.webp",
+                    "imageAlt": "Industrial grade 3D prototyping machinery"
+                  }
+                ]
+              }
+            ],
+            "recentPosts": [
+              {
+                "id": "1",
+                "title": "Why Brochures Still Work in the Digital Age",
+                "date": "10 Mar 2025",
+                "image": "/images/blog-brochures.webp",
+                "href": "/blog/why-brochures-work-digital-age"
+              },
+              {
+                "id": "2",
+                "title": "5 Creative Business Card Design Ideas for 2025",
+                "date": "15 Mar 2025",
+                "image": "/images/blog-business-cards.webp",
+                "href": "/blog/business-card-ideas-2025"
+              },
+              {
+                "id": "3",
+                "title": "How Custom Packaging Boosts Your Brand Value",
+                "date": "05 Mar 2025",
+                "image": "/images/blog-packaging.webp",
+                "href": "/blog/custom-packaging-brand-value"
+              },
+              {
+                "id": "4",
+                "title": "Offset vs Digital Printing: The Complete Guide",
+                "date": "28 Feb 2025",
+                "image": "/images/service-offset.webp",
+                "href": "/blog/offset-vs-digital-printing-guide"
+              }
+            ],
+            "needCustomCard": {
+              "title": "Need Custom Printing?",
+              "description": "Get an instant estimate for your packaging, marketing materials, or merchandise.",
+              "buttonText": "Contact Us",
+              "buttonHref": "/contact"
+            }
+          }
+        }
+      },
+      "faqs": {
+        "variants": {
+          "PrintAxisFaq1": {
+            "tagline": "COMMON QUESTIONS",
+            "titlePart1": "Frequently Asked",
+            "titleHighlight": "Questions",
+            "description": "Find quick, straightforward answers to frequent inquiries about our printing techniques, file specifications, production timelines, and custom delivery options.",
+            "supportCard": {
+              "title": "Need Custom Printing?",
+              "description": "Have a bespoke project, custom packaging die-line, or high-volume enterprise run? Reach out to our prepress specialists today.",
+              "phone": "+1 800-555-PRINT",
+              "email": "support@printaxis.com",
+              "buttonText": "Request Free Sample",
+              "buttonHref": "#cta"
+            },
+            "faqList": [
+              {
+                "id": "faq-1",
+                "question": "What digital file formats do you accept for custom printing?",
+                "answer": "We accept high-resolution vector PDF, AI, PSD, and EPS files. For best print quality, ensure raster graphics are at least 300 DPI at 100% final scale with CMYK color mode and 1/8 inch (3mm) bleed margins."
+              },
+              {
+                "id": "faq-2",
+                "question": "What is the typical turnaround time for orders?",
+                "answer": "Standard digital print orders take 2 to 4 business days. Large-format offset printing, specialized foil stamping, and custom packaging boxes typically require 5 to 7 business days. Rush express same-day/next-day options are also available."
+              },
+              {
+                "id": "faq-3",
+                "question": "Can I review a hardcopy proof before full production begins?",
+                "answer": "Yes! We provide complimentary digital PDF proofs for all jobs. For high-volume offset or packaging runs, physical press proofs and sample mockups can be shipped for your final physical sign-off."
+              },
+              {
+                "id": "faq-4",
+                "question": "What is your minimum order quantity (MOQ)?",
+                "answer": "Thanks to our versatile digital printing equipment, we support short runs starting as low as 25 to 50 units for business stationery, apparel, and booklets. For custom packaging and corrugated shipping boxes, MOQs start from 100 units."
+              },
+              {
+                "id": "faq-5",
+                "question": "Do you provide eco-friendly and recycled paper stocks?",
+                "answer": "Absolutely! We offer an extensive selection of FSC-certified recycled cardstocks, Kraft paper, and biodegradable plant-based soy inks to help your brand achieve sustainable, premium-grade branding."
+              },
+              {
+                "id": "faq-6",
+                "question": "Do you ship nationwide or handle international logistics?",
+                "answer": "Yes, we ship across the country via trusted courier partners with tracking on all consignments. We also support scheduled split deliveries to multiple corporate branch offices upon request."
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
