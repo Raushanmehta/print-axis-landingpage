@@ -6,6 +6,7 @@ import Image from "next/image";
 import { ArrowRightIcon } from "@/components/icons";
 import { motion } from "framer-motion";
 import { cardHover } from "@/utils/animations";
+import ContactModal from "@/components/common/ContactModal";
 
 export interface ServiceItem {
   id: string;
@@ -66,27 +67,27 @@ export default function ServiceCard({
 
       {/* Card Action Footer */}
       <div className="px-4 pb-4 pt-3 flex items-center justify-between border-t border-gray-50 mt-2">
-        <Link
-          href={targetHref}
-          className="text-xs sm:text-sm font-semibold text-[#cb5855] inline-flex items-center gap-1.5 group/link"
-        >
-          <span>Read More</span>
-          <span
-            className="transition-transform duration-200 group-hover/link:translate-x-1.5"
-            aria-hidden="true"
-          >
-            →
+        <ContactModal>
+          <span className="text-xs sm:text-sm font-semibold text-[#cb5855] inline-flex items-center gap-1.5 group/link cursor-pointer">
+            <span>Get Quote</span>
+            <span
+              className="transition-transform duration-200 group-hover/link:translate-x-1.5"
+              aria-hidden="true"
+            >
+              →
+            </span>
           </span>
-        </Link>
+        </ContactModal>
 
         {/* Circular Arrow Button with hover spring */}
-        <Link
-          href={targetHref}
-          aria-label={`Learn more about ${service.title}`}
-          className="w-10 h-10 rounded-full border border-[#cb5855]/40 flex items-center justify-center text-[#cb5855] group-hover:border-black group-hover:bg-black group-hover:text-white hover:bg-black hover:border-black hover:text-white transition-all duration-300 shadow-xs cursor-pointer"
-        >
-          <ArrowRightIcon className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
-        </Link>
+        <ContactModal>
+          <span
+            aria-label={`Get quote for ${service.title}`}
+            className="w-10 h-10 rounded-full border border-[#cb5855]/40 flex items-center justify-center text-[#cb5855] group-hover:border-black group-hover:bg-black group-hover:text-white hover:bg-black hover:border-black hover:text-white transition-all duration-300 shadow-xs cursor-pointer"
+          >
+            <ArrowRightIcon className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
+          </span>
+        </ContactModal>
       </div>
     </motion.div>
   );

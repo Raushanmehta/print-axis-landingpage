@@ -17,6 +17,7 @@ import {
   AnimatedButton,
   AnimatedIcon,
 } from "@/utils/animations";
+import ContactModal from "@/components/common/ContactModal";
 
 export interface FeatureBadge {
   id: string;
@@ -121,15 +122,7 @@ export default function HeroSection(props: HeroSectionProps) {
             <FadeUp delay={0.28}>
               <div className="mt-4 sm:mt-4 flex flex-wrap items-center gap-4">
                 <AnimatedButton glow>
-                  <Link
-                    href={quoteButtonHref}
-                    className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-sm bg-gradient-to-r from-[#ba4f4c] via-[#c85956] to-[#d66560] hover:from-black hover:via-black hover:to-black hover:bg-black hover:bg-none text-white font-semibold text-xs sm:text-sm tracking-wide uppercase shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer"
-                  >
-                    <span>{quoteButtonText}</span>
-                    <span className="transition-transform duration-200 group-hover:translate-x-1 inline-flex items-center">
-                      <ArrowRightIcon />
-                    </span>
-                  </Link>
+                  <ContactModal triggerText={quoteButtonText} />
                 </AnimatedButton>
 
                 <AnimatedButton>

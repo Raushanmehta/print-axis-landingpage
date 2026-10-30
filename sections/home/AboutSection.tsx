@@ -17,6 +17,7 @@ import {
   StaggerContainer,
   StaggerItem,
 } from "@/utils/animations";
+import ContactModal from "@/components/common/ContactModal";
 
 export interface AboutSectionProps {
   data?: PrintAxisAboutData;
@@ -96,15 +97,7 @@ export default function AboutSection(props: AboutSectionProps) {
               {showButton && (
                 <FadeLeft delay={0.28}>
                   <div className="mt-3 sm:mt-3">
-                    <Link
-                      href={buttonHref}
-                      className="group inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-sm bg-gradient-to-r from-[#ba4f4c] via-[#c85956] to-[#d66560] hover:from-black hover:via-black hover:to-black hover:bg-black hover:bg-none text-white font-semibold text-xs sm:text-sm tracking-wide uppercase shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer"
-                    >
-                      <span>{buttonText}</span>
-                      <span className="transition-transform duration-200 group-hover:translate-x-1 inline-flex items-center">
-                        <ArrowRightIcon />
-                      </span>
-                    </Link>
+                    <ContactModal triggerText={buttonText} />
                   </div>
                 </FadeLeft>
               )}
