@@ -1,7 +1,7 @@
 import React from "react";
 
 export function PhoneIcon({
-  className = "w-4 h-4 text-[#e06864] shrink-0",
+  className = "w-4 h-4 text-[#FF773C] shrink-0",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

@@ -39,12 +39,12 @@ export default function TestimonialCard({
 
   return (
     <div
-      className={`relative bg-[#34142b] rounded-lg p-5 sm:p-6 lg:p-7 overflow-hidden text-white shadow-xl flex flex-col justify-between ${className}`}
+      className={`relative bg-[#111111] rounded-lg p-5 sm:p-6 lg:p-7 overflow-hidden text-white shadow-xl flex flex-col justify-between border border-white/5 ${className}`}
     >
       {/* Background Subtle Organic Curved Waves */}
       <div className="absolute right-0 bottom-0 w-80 h-80 pointer-events-none opacity-20">
-        <div className="absolute -right-20 -bottom-20 w-80 h-80 rounded-full border-[30px] border-white/10" />
-        <div className="absolute -right-10 -bottom-10 w-60 h-60 rounded-full border-[25px] border-white/15" />
+        <div className="absolute -right-20 -bottom-20 w-80 h-80 rounded-full border-[30px] border-[#FF773C]/10" />
+        <div className="absolute -right-10 -bottom-10 w-60 h-60 rounded-full border-[25px] border-[#FF773C]/15" />
       </div>
 
       <div className="relative z-10" key={testimonial.id}>
@@ -72,7 +72,7 @@ export default function TestimonialCard({
           {/* Star Rating */}
           <div className="flex items-center gap-1 mt-1.5">
             {[...Array(rating)].map((_, i) => (
-              <span key={i} className="text-[#e06864]">
+              <span key={i} className="text-[#FF773C]">
                 <StarIcon />
               </span>
             ))}
@@ -99,7 +99,7 @@ export default function TestimonialCard({
             type="button"
             onClick={onPrev}
             aria-label="Previous testimonial"
-            className="w-8 h-8 sm:w-9 sm:h-9 rounded-sm bg-[#e06864] text-white hover:bg-black hover:text-white flex items-center justify-center transition-all duration-200 active:scale-95 cursor-pointer shadow-xs hover:shadow-md"
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-sm bg-[#FF773C] text-white hover:bg-white hover:text-black flex items-center justify-center transition-all duration-200 active:scale-95 cursor-pointer shadow-xs hover:shadow-md"
           >
             <ChevronLeftIcon />
           </button>
@@ -108,7 +108,7 @@ export default function TestimonialCard({
             type="button"
             onClick={onNext}
             aria-label="Next testimonial"
-            className="w-8 h-8 sm:w-9 sm:h-9 rounded-sm bg-[#e06864] text-white hover:bg-black hover:text-white flex items-center justify-center transition-all duration-200 shadow-sm hover:shadow-md active:scale-95 cursor-pointer"
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-sm bg-[#FF773C] text-white hover:bg-white hover:text-black flex items-center justify-center transition-all duration-200 shadow-sm hover:shadow-md active:scale-95 cursor-pointer"
           >
             <ChevronRightIcon className="w-3.5 h-3.5" />
           </button>

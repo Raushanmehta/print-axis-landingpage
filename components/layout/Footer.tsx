@@ -187,7 +187,7 @@ export default function Footer(props: FooterProps = {}) {
             <div className="space-y-5">
               {/* Call Us */}
               <div className="flex items-start gap-3.5 group">
-                <div className="w-12 h-12 rounded-full bg-[#3d1833] flex items-center justify-center shrink-0 text-[#e06864] transition-colors group-hover:bg-[#4d1f40]">
+                <div className="w-11 h-11 rounded-full bg-[#1A1A1A] border border-white/10 flex items-center justify-center shrink-0 text-[#FF773C] transition-all group-hover:bg-[#FF773C] group-hover:text-white shadow-xs">
                   <CallIcon />
                 </div>
                 <div className="flex flex-col">
@@ -196,7 +196,7 @@ export default function Footer(props: FooterProps = {}) {
                   </span>
                   <Link
                     href={phoneHref}
-                    className="text-sm font-semibold text-white tracking-wide hover:text-[#e06864] transition-colors"
+                    className="text-sm font-semibold text-white tracking-wide hover:text-[#FF773C] transition-colors"
                   >
                     {contactInfo.phone}
                   </Link>
@@ -205,7 +205,7 @@ export default function Footer(props: FooterProps = {}) {
 
               {/* Email Us */}
               <div className="flex items-start gap-3.5 group">
-                <div className="w-12 h-12 rounded-full bg-[#3d1833] flex items-center justify-center shrink-0 text-[#e06864] transition-colors group-hover:bg-[#4d1f40]">
+                <div className="w-11 h-11 rounded-full bg-[#1A1A1A] border border-white/10 flex items-center justify-center shrink-0 text-[#FF773C] transition-all group-hover:bg-[#FF773C] group-hover:text-white shadow-xs">
                   <EmailIcon className="w-6 h-6" />
                 </div>
                 <div className="flex flex-col">
@@ -214,7 +214,7 @@ export default function Footer(props: FooterProps = {}) {
                   </span>
                   <Link
                     href={emailHref}
-                    className="text-sm font-semibold text-white tracking-wide hover:text-[#e06864] transition-colors"
+                    className="text-sm font-semibold text-white tracking-wide hover:text-[#FF773C] transition-colors"
                   >
                     {contactInfo.email}
                   </Link>
@@ -223,7 +223,7 @@ export default function Footer(props: FooterProps = {}) {
 
               {/* Visit Us */}
               <div className="flex items-start gap-3.5 group">
-                <div className="w-12 h-12 rounded-full bg-[#3d1833] flex items-center justify-center shrink-0 text-[#e06864] transition-colors group-hover:bg-[#4d1f40]">
+                <div className="w-11 h-11 rounded-full bg-[#1A1A1A] border border-white/10 flex items-center justify-center shrink-0 text-[#FF773C] transition-all group-hover:bg-[#FF773C] group-hover:text-white shadow-xs">
                   <LocationIcon />
                 </div>
                 <div className="flex flex-col">

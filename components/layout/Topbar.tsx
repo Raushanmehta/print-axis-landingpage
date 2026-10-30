@@ -36,16 +36,18 @@ export default function Topbar({ data = siteMap.topbar }: TopbarProps = {}) {
   const { phone, phoneHref, email, emailHref, socialLinks } = currentData;
 
   return (
-    <div className="w-full bg-[#362136] text-white text-xs sm:text-[13px] hidden sm:block">
+    <div className="w-full bg-[#0A0A0A] border-b border-white/10 text-white text-xs sm:text-[13px] hidden sm:block">
       <div className="max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-2 sm:py-2.5 flex flex-wrap items-center justify-between gap-y-2">
         {/* Left Section: Contact Details */}
         <div className="flex items-center flex-wrap gap-3 sm:gap-5">
           {/* Phone */}
           <Link
             href={phoneHref || `tel:${phone.replace(/\s+/g, "")}`}
-            className="flex items-center gap-2 text-white/95 hover:text-white transition-colors duration-200 group"
+            className="flex items-center gap-2.5 text-white/90 hover:text-white transition-colors duration-200 group"
           >
-            <PhoneIcon className="w-4 h-4 text-[#e06864] shrink-0 transition-transform duration-200 group-hover:scale-110" />
+            <span className="w-6 h-6 rounded-full bg-[#FF773C] flex items-center justify-center shrink-0 shadow-xs transition-transform duration-200 group-hover:scale-110">
+              <PhoneIcon className="w-3.5 h-3.5 text-white shrink-0" />
+            </span>
             <span className="font-normal tracking-wide">{phone}</span>
           </Link>
 
@@ -58,9 +60,11 @@ export default function Topbar({ data = siteMap.topbar }: TopbarProps = {}) {
           {/* Email */}
           <Link
             href={emailHref || `mailto:${email}`}
-            className="flex items-center gap-2 text-white/95 hover:text-white transition-colors duration-200 group"
+            className="flex items-center gap-2.5 text-white/90 hover:text-white transition-colors duration-200 group"
           >
-            <EmailIcon className="w-4 h-4 text-[#e06864] shrink-0 transition-transform duration-200 group-hover:scale-110" />
+            <span className="w-6 h-6 rounded-full bg-[#FF773C] flex items-center justify-center shrink-0 shadow-xs transition-transform duration-200 group-hover:scale-110">
+              <EmailIcon className="w-3.5 h-3.5 text-white shrink-0" />
+            </span>
             <span className="font-normal tracking-wide">{email}</span>
           </Link>
         </div>
@@ -74,7 +78,7 @@ export default function Topbar({ data = siteMap.topbar }: TopbarProps = {}) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={item.label}
-              className="w-7 h-7 rounded-full border border-white/60 flex items-center justify-center text-white/90 hover:text-white hover:border-white hover:bg-white/10 transition-all duration-200"
+              className="w-7 h-7 rounded-full bg-white/10 hover:bg-[#FF773C] border border-white/20 hover:border-[#FF773C] flex items-center justify-center text-white/90 hover:text-white transition-all duration-200"
             >
               {renderSocialIcon(item.icon)}
             </Link>
