@@ -31,13 +31,11 @@ export type PrintAxisServicesData = PrintAxisServiceData;
 export type PrintAxisTestimonialData = PrintAxisSections["testimonial"]["variants"]["PrintAxisTestimonial1"];
 export type PrintAxisCtaData = PrintAxisSections["cta"]["variants"]["PrintAxisCta1"];
 export type PrintAxisProcessData = PrintAxisSections["process"]["variants"]["PrintAxisProcess1"];
-export type PrintAxisBlogData = PrintAxisSections["blog"]["variants"]["PrintAxisBlog1"];
 export type PrintAxisFaqData = PrintAxisSections["faqs"]["variants"]["PrintAxisFaq1"];
 
 // ── Inferred Sub-item Data Models ──
 export type NavItem = PrintAxisNavbarData["navLinks"][0];
 export type ServiceItem = PrintAxisServicesData["servicesList"][0];
-export type BlogPost = PrintAxisBlogData["blogPosts"][0];
 export type TestimonialItem = PrintAxisTestimonialData["testimonialsList"][0];
 export type ProcessStep = PrintAxisProcessData["steps"][0];
 export type FaqItem = PrintAxisFaqData["faqList"][0];
@@ -49,7 +47,6 @@ export type ServicesData = PrintAxisServicesData;
 export type TestimonialsData = PrintAxisTestimonialData;
 export type CtaData = PrintAxisCtaData;
 export type ProcessData = PrintAxisProcessData;
-export type BlogData = PrintAxisBlogData;
 export type FaqData = PrintAxisFaqData;
 export type FooterData = PrintAxisFooterData;
 export type NavbarData = PrintAxisNavbarData;
@@ -70,7 +67,6 @@ export const site = {
   testimonial: sec.testimonial.variants.PrintAxisTestimonial1,
   testimonials: sec.testimonial.variants.PrintAxisTestimonial1,
   cta: sec.cta.variants.PrintAxisCta1,
-  blog: sec.blog.variants.PrintAxisBlog1,
   faqs: sec.faqs.variants.PrintAxisFaq1,
 
   // Compatibility & Legacy Keys
@@ -85,7 +81,6 @@ export const site = {
   testimonialData: sec.testimonial.variants.PrintAxisTestimonial1,
   testimonialsData: sec.testimonial.variants.PrintAxisTestimonial1,
   ctaData: sec.cta.variants.PrintAxisCta1,
-  blogData: sec.blog.variants.PrintAxisBlog1,
   faqsData: sec.faqs.variants.PrintAxisFaq1,
 
   // Root References
