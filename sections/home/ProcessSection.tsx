@@ -46,24 +46,24 @@ export default function ProcessSection(props: ProcessSectionProps) {
           <FadeDown delay={0.05}>
             <div className="flex items-center justify-center gap-3 mb-2">
               <span
-                className="w-9 h-[2px] bg-[#cb5855] rounded-full inline-block"
+                className="w-9 h-[2px] bg-[#FF773C] rounded-full inline-block"
                 aria-hidden="true"
               />
-              <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#8e4f5d] uppercase">
+              <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#FF773C] uppercase">
                 {tagline}
               </span>
             </div>
           </FadeDown>
 
           <FadeUp delay={0.12}>
-            <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight text-[#241121]">
+            <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight text-[#111111]">
               <span>{titlePart1} </span>
-              <span className="text-[#cb5855]">{titleHighlight}</span>
+              <span className="text-[#FF773C]">{titleHighlight}</span>
             </h2>
           </FadeUp>
 
           <FadeUp delay={0.2}>
-            <p className="mt-2 text-sm sm:text-base text-[#5b525a] leading-relaxed max-w-2xl mx-auto">
+            <p className="mt-2 text-sm sm:text-base text-[#555555] leading-relaxed max-w-2xl mx-auto">
               {subtitle}
             </p>
           </FadeUp>
@@ -88,7 +88,7 @@ export default function ProcessSection(props: ProcessSectionProps) {
                         y1="1"
                         x2="100%"
                         y2="1"
-                        stroke="#cb5855"
+                        stroke="#FF773C"
                         strokeWidth="2"
                         strokeDasharray="6 6"
                         strokeOpacity="0.55"
@@ -105,7 +105,7 @@ export default function ProcessSection(props: ProcessSectionProps) {
                   </div>
 
                   <AnimatedIcon animation="pulse">
-                    <div className="w-7 h-7 rounded-full bg-[#cb5855] text-white flex items-center justify-center shrink-0 mx-2 shadow-xs transition-transform duration-200 group-hover:scale-115">
+                    <div className="w-7 h-7 rounded-full bg-[#FF773C] text-white flex items-center justify-center shrink-0 mx-2 shadow-xs transition-transform duration-200 group-hover:scale-115">
                       <ChevronRightIcon className="w-3.5 h-3.5 ml-0.5" />
                     </div>
                   </AnimatedIcon>
@@ -117,7 +117,7 @@ export default function ProcessSection(props: ProcessSectionProps) {
                         y1="1"
                         x2="100%"
                         y2="1"
-                        stroke="#cb5855"
+                        stroke="#FF773C"
                         strokeWidth="2"
                         strokeDasharray="6 6"
                         strokeOpacity="0.55"
@@ -147,21 +147,21 @@ export default function ProcessSection(props: ProcessSectionProps) {
                     />
                   </div>
                 ) : (
-                  <div className="text-2xl font-black text-[#cb5855]">
+                  <div className="text-2xl font-black text-[#FF773C]">
                     {step.stepNumber}
                   </div>
                 )}
 
-                <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-[#cb5855] text-white text-sm font-bold flex items-center justify-center border-2 border-white shadow-md transition-transform duration-300 group-hover:scale-110 z-10">
+                <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-[#FF773C] text-white text-sm font-bold flex items-center justify-center border-2 border-white shadow-md transition-transform duration-300 group-hover:scale-110 z-10">
                   {step.stepNumber}
                 </div>
               </div>
 
-              <h3 className="text-base sm:text-lg font-bold text-[#241121] group-hover:text-[#cb5855] transition-colors duration-200">
+              <h3 className="text-base sm:text-lg font-bold text-[#111111] group-hover:text-[#FF773C] transition-colors duration-200">
                 {step.title}
               </h3>
 
-              <p className="mt-1 text-xs sm:text-sm text-[#5b525a] leading-relaxed max-w-xs mx-auto">
+              <p className="mt-1 text-xs sm:text-sm text-[#555555] leading-relaxed max-w-xs mx-auto">
                 {step.description}
               </p>
             </StaggerItem>

@@ -1,11 +1,9 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 import ServiceCard, { ServiceItem } from "@/components/cards/ServiceCard";
 import { siteMap, PrintAxisServiceData } from "@/data";
 import {
-  ArrowRightIcon,
   BadgeCheckIcon,
   LayersIcon,
   TruckIcon,
@@ -57,23 +55,23 @@ const renderServiceFeatureIcon = (icon: React.ReactNode | string) => {
     case "badge":
     case "precision":
     case "diamond":
-      return <BadgeCheckIcon className="w-6 h-6 text-[#cb5855]" />;
+      return <BadgeCheckIcon className="w-6 h-6 text-[#FF773C]" />;
     case "custom":
     case "design":
-      return <CustomDesignIcon className="w-6 h-6 text-[#cb5855]" />;
+      return <CustomDesignIcon className="w-6 h-6 text-[#FF773C]" />;
     case "speed":
     case "rapid":
     case "turnaround":
-      return <SpeedIcon className="w-6 h-6 text-[#cb5855]" />;
+      return <SpeedIcon className="w-6 h-6 text-[#FF773C]" />;
     case "variety":
     case "layers":
     case "stocks":
-      return <LayersIcon className="w-6 h-6 text-[#cb5855]" />;
+      return <LayersIcon className="w-6 h-6 text-[#FF773C]" />;
     case "delivery":
     case "truck":
-      return <TruckIcon className="w-6 h-6 text-[#cb5855]" />;
+      return <TruckIcon className="w-6 h-6 text-[#FF773C]" />;
     default:
-      return <BadgeCheckIcon className="w-6 h-6 text-[#cb5855]" />;
+      return <BadgeCheckIcon className="w-6 h-6 text-[#FF773C]" />;
   }
 };
 
@@ -155,7 +153,7 @@ export default function ServiceSection(props: ServiceSectionProps) {
 
   return (
     <section id="services" className="relative w-full bg-white py-8 lg:py-12 overflow-hidden scroll-mt-20">
-      <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#fbf0ef]/60 rounded-full blur-3xl pointer-events-none -z-0" />
+      <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#FFF2EB]/60 rounded-full blur-3xl pointer-events-none -z-0" />
 
       <div className="relative z-10 max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6 items-start">
@@ -163,31 +161,31 @@ export default function ServiceSection(props: ServiceSectionProps) {
             <FadeDown delay={0.05}>
               <div className="flex items-center gap-3 mb-2">
                 <span
-                  className="w-9 h-[2px] bg-[#cb5855] rounded-full inline-block"
+                  className="w-9 h-[2px] bg-[#FF773C] rounded-full inline-block"
                   aria-hidden="true"
                 />
-                <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#8e4f5d] uppercase">
+                <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#FF773C] uppercase">
                   {tagline}
                 </span>
               </div>
             </FadeDown>
 
             <FadeLeft delay={0.12}>
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight leading-[1.12] text-[#241121]">
+              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight leading-[1.12] text-[#111111]">
                 <span>{titlePart1}</span>
                 <br />
-                <span className="text-[#cb5855] inline-block mt-1">
+                <span className="text-[#FF773C] inline-block mt-1">
                   {titleHighlight1}
                 </span>
                 <br />
-                <span className="text-[#cb5855] inline-block">
+                <span className="text-[#FF773C] inline-block">
                   {titleHighlight2}
                 </span>
               </h2>
             </FadeLeft>
 
             <FadeLeft delay={0.2}>
-              <p className="mt-2 text-[#5b525a] text-sm sm:text-base leading-relaxed max-w-md">
+              <p className="mt-2 text-[#555555] text-sm sm:text-base leading-relaxed max-w-md">
                 {description}
               </p>
             </FadeLeft>
@@ -197,11 +195,11 @@ export default function ServiceSection(props: ServiceSectionProps) {
                 <StaggerItem key={feature.id} variant="left">
                   <div className="flex items-center gap-3.5 group">
                     <AnimatedIcon animation="pulse">
-                      <div className="w-12 h-12 rounded-full bg-[#fdf0ef] flex items-center justify-center shrink-0 transition-transform duration-200 group-hover:scale-110">
+                      <div className="w-12 h-12 rounded-full bg-[#FFF5F0] flex items-center justify-center shrink-0 transition-transform duration-200 group-hover:scale-110">
                         {renderServiceFeatureIcon(feature.icon)}
                       </div>
                     </AnimatedIcon>
-                    <span className="text-sm sm:text-[15px] font-semibold text-[#241121]">
+                    <span className="text-sm sm:text-[15px] font-semibold text-[#111111]">
                       {feature.title}
                     </span>
                   </div>

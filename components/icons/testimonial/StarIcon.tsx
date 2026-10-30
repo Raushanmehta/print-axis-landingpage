@@ -1,7 +1,7 @@
 import React from "react";
 
 export function StarIcon({
-  className = "w-4 h-4 text-[#cb5855] fill-current",
+  className = "w-4 h-4 text-[#FF773C] fill-current",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

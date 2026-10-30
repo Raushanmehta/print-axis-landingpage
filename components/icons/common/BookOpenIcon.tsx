@@ -1,7 +1,7 @@
 import React from "react";
 
 export function BookOpenIcon({
-  className = "w-5 h-5 text-[#cb5855]",
+  className = "w-5 h-5 text-[#FF773C]",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

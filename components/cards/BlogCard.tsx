@@ -46,17 +46,17 @@ export default function BlogCard({ post, className = "" }: BlogCardProps) {
         {/* Card Content */}
         <div className="px-4 pb-1 pt-1">
           {/* Date Badge */}
-          <span className="inline-block bg-[#fdf0ef] text-[#cb5855] text-[11px] font-semibold px-2.5 py-0.5 rounded-sm mb-2 transition-colors group-hover:bg-[#cb5855] group-hover:text-white">
+          <span className="inline-block bg-[#FFF5F0] text-[#FF773C] text-[11px] font-semibold px-2.5 py-0.5 rounded-sm mb-2 transition-colors group-hover:bg-[#FF773C] group-hover:text-white">
             {post.date}
           </span>
 
           {/* Post Title */}
-          <h3 className="text-base sm:text-lg font-bold text-[#241121] group-hover:text-[#cb5855] transition-colors duration-200 leading-snug">
+          <h3 className="text-base sm:text-lg font-bold text-[#111111] group-hover:text-[#FF773C] transition-colors duration-200 leading-snug">
             <Link href={targetHref}>{post.title}</Link>
           </h3>
 
           {/* Excerpt Description */}
-          <p className="mt-1.5 text-xs sm:text-sm text-[#665e64] leading-relaxed line-clamp-3">
+          <p className="mt-1.5 text-xs sm:text-sm text-[#666666] leading-relaxed line-clamp-3">
             {post.description}
           </p>
         </div>
@@ -66,7 +66,7 @@ export default function BlogCard({ post, className = "" }: BlogCardProps) {
       <div className="px-4 pb-4 pt-2 border-t border-gray-50 ">
         <Link
           href={targetHref}
-          className="text-xs sm:text-sm font-semibold text-[#cb5855] inline-flex items-center gap-1.5 group/link"
+          className="text-xs sm:text-sm font-semibold text-[#FF773C] inline-flex items-center gap-1.5 group/link"
         >
           <span>Read More</span>
           <span

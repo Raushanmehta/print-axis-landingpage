@@ -1,7 +1,7 @@
 import React from "react";
 
 export function CalendarIcon({
-  className = "w-4 h-4 text-[#cb5855]",
+  className = "w-4 h-4 text-[#FF773C]",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

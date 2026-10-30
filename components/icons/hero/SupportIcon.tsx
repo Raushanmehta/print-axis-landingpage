@@ -1,7 +1,7 @@
 import React from "react";
 
 export function SupportIcon({
-  className = "w-10 h-10 text-[#cb5855] shrink-0",
+  className = "w-10 h-10 text-[#FF773C] shrink-0",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

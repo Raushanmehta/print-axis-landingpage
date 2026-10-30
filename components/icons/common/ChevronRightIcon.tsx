@@ -1,7 +1,7 @@
 import React from "react";
 
 export function ChevronRightIcon({
-  className = "w-3 h-3 text-[#cb5855] shrink-0 transition-transform duration-200 group-hover:translate-x-1",
+  className = "w-3 h-3 text-[#FF773C] shrink-0 transition-transform duration-200 group-hover:translate-x-1",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

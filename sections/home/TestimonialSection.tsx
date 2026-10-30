@@ -65,24 +65,24 @@ export default function TestimonialSection(props: TestimonialSectionProps) {
           <FadeDown delay={0.05}>
             <div className="flex items-center justify-center gap-3 mb-2">
               <span
-                className="w-9 h-[2px] bg-[#cb5855] rounded-full inline-block"
+                className="w-9 h-[2px] bg-[#FF773C] rounded-full inline-block"
                 aria-hidden="true"
               />
-              <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#8e4f5d] uppercase">
+              <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#FF773C] uppercase">
                 {tagline}
               </span>
             </div>
           </FadeDown>
 
           <FadeUp delay={0.12}>
-            <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight text-[#241121]">
+            <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight text-[#111111]">
               <span>{titlePart1} </span>
-              <span className="text-[#cb5855]">{titleHighlight}</span>
+              <span className="text-[#FF773C]">{titleHighlight}</span>
             </h2>
           </FadeUp>
 
           <FadeUp delay={0.2}>
-            <p className="mt-2 text-sm sm:text-base text-[#5b525a] leading-relaxed max-w-2xl mx-auto">
+            <p className="mt-2 text-sm sm:text-base text-[#555555] leading-relaxed max-w-2xl mx-auto">
               {subtitle}
             </p>
           </FadeUp>
@@ -105,26 +105,26 @@ export default function TestimonialSection(props: TestimonialSectionProps) {
             <FadeRight delay={0.2}>
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 flex items-center justify-center">
                 <div
-                  className="absolute inset-2 rounded-full border border-[#cb5855]/30 pointer-events-none animate-spin-slow"
+                  className="absolute inset-2 rounded-full border border-[#FF773C]/30 pointer-events-none animate-spin-slow"
                   aria-hidden="true"
                   style={{ animation: "spin 25s linear infinite" }}
                 />
 
                 <div
-                  className="absolute -top-4 -bottom-4 -left-4 -right-4 rounded-full border-2 border-dashed border-[#cb5855]/35 pointer-events-none"
+                  className="absolute -top-4 -bottom-4 -left-4 -right-4 rounded-full border-2 border-dashed border-[#FF773C]/35 pointer-events-none"
                   aria-hidden="true"
                   style={{ animation: "spin 35s linear infinite reverse" }}
                 />
 
                 <div className="absolute top-6 right-7 z-20">
                   <AnimatedIcon animation="pulse">
-                    <div className="w-5 h-5 rounded-full bg-[#cb5855] shadow-xs" />
+                    <div className="w-5 h-5 rounded-full bg-[#FF773C] shadow-xs" />
                   </AnimatedIcon>
                 </div>
 
                 <div className="absolute bottom-4 left-2 z-20">
                   <FloatingElement amplitude={5} duration={3}>
-                    <div className="w-10 h-10 rounded-full bg-[#ba4f4c] border-2 border-white shadow-md" />
+                    <div className="w-10 h-10 rounded-full bg-[#E05E26] border-2 border-white shadow-md" />
                   </FloatingElement>
                 </div>
 
@@ -135,7 +135,7 @@ export default function TestimonialSection(props: TestimonialSectionProps) {
                   {[...Array(20)].map((_, i) => (
                     <div
                       key={i}
-                      className="w-1.5 h-1.5 rounded-full bg-[#cb5855]"
+                      className="w-1.5 h-1.5 rounded-full bg-[#FF773C]"
                     />
                   ))}
                 </div>

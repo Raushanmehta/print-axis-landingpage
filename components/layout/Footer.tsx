@@ -90,7 +90,7 @@ export default function Footer(props: FooterProps = {}) {
   const emailHref = contactInfo.emailHref || `mailto:${contactInfo.email}`;
 
   return (
-    <footer className="w-full bg-[#261021] text-white pt-16 lg:pt-20">
+    <footer className="w-full bg-[#0A0A0A] text-white pt-16 lg:pt-20">
       <div className="max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
         <div className="grid grid-cols-2 lg:grid-cols-12 gap-y-10 gap-x-6 sm:gap-x-8 lg:gap-8">
           {/* Column 1: Brand & Bio & Socials from JSON */}
@@ -132,7 +132,7 @@ export default function Footer(props: FooterProps = {}) {
               {titles.quickLinks}
             </h3>
             <div
-              className="w-8 h-[2.5px] bg-[#cb5855] mt-2 mb-6 rounded-full"
+              className="w-8 h-[2.5px] bg-[#FF773C] mt-2 mb-6 rounded-full"
               aria-hidden="true"
             />
             <ul className="space-y-3">
@@ -156,7 +156,7 @@ export default function Footer(props: FooterProps = {}) {
               {titles.services}
             </h3>
             <div
-              className="w-8 h-[2.5px] bg-[#cb5855] mt-2 mb-6 rounded-full"
+              className="w-8 h-[2.5px] bg-[#FF773C] mt-2 mb-6 rounded-full"
               aria-hidden="true"
             />
             <ul className="space-y-3">
@@ -180,7 +180,7 @@ export default function Footer(props: FooterProps = {}) {
               {titles.contact}
             </h3>
             <div
-              className="w-8 h-[2.5px] bg-[#cb5855] mt-2 mb-6 rounded-full"
+              className="w-8 h-[2.5px] bg-[#FF773C] mt-2 mb-6 rounded-full"
               aria-hidden="true"
             />
 

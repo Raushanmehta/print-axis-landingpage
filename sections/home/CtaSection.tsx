@@ -36,7 +36,7 @@ export default function CtaSection(props: CtaSectionProps) {
   return (
     <section
       id="cta"
-      className="relative w-full overflow-hidden bg-cover bg-no-repeat bg-center min-h-[360px] sm:min-h-[420px] lg:min-h-[480px] flex items-center justify-center bg-[#fdf5f4] scroll-mt-20"
+      className="relative w-full overflow-hidden bg-cover bg-no-repeat bg-center min-h-[360px] sm:min-h-[420px] lg:min-h-[480px] flex items-center justify-center bg-[#FFF8F5] scroll-mt-20"
       style={{
         backgroundImage: `url('${backgroundImageSrc}')`,
       }}
@@ -48,17 +48,17 @@ export default function CtaSection(props: CtaSectionProps) {
 
       <div className="relative z-10 max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-8 lg:py-12 text-center flex flex-col items-center">
         <FadeUp delay={0.08}>
-          <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight leading-[1.12] text-[#241121]">
+          <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight leading-[1.12] text-[#111111]">
             <span>{titlePart1}</span>
             <br />
-            <span className="text-[#cb5855] inline-block mt-1">
+            <span className="text-[#FF773C] inline-block mt-1">
               {titleHighlight}
             </span>
           </h2>
         </FadeUp>
 
         <FadeUp delay={0.16}>
-          <p className="mt-2 text-[#5b525a] text-sm sm:text-base leading-relaxed max-w-xl mx-auto">
+          <p className="mt-2 text-[#555555] text-sm sm:text-base leading-relaxed max-w-xl mx-auto">
             {description}
           </p>
         </FadeUp>

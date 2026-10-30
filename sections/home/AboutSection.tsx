@@ -69,27 +69,27 @@ export default function AboutSection(props: AboutSectionProps) {
               <FadeDown delay={0.05}>
                 <div className="flex items-center gap-3 mb-2">
                   <span
-                    className="w-9 h-[2px] bg-[#cb5855] rounded-full inline-block"
+                    className="w-9 h-[2px] bg-[#FF773C] rounded-full inline-block"
                     aria-hidden="true"
                   />
-                  <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#8e4f5d] uppercase">
+                  <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#FF773C] uppercase">
                     {tagline}
                   </span>
                 </div>
               </FadeDown>
 
               <FadeLeft delay={0.12}>
-                <h2 className="text-3xl sm:text-4xl lg:text-[44px] xl:text-[48px] font-extrabold tracking-tight leading-[1.12] text-[#241121]">
+                <h2 className="text-3xl sm:text-4xl lg:text-[44px] xl:text-[48px] font-extrabold tracking-tight leading-[1.12] text-[#111111]">
                   <span>{titlePart1}</span>
                   <br />
-                  <span className="text-[#cb5855] inline-block mt-1">
+                  <span className="text-[#FF773C] inline-block mt-1">
                     {titleHighlight}
                   </span>
                 </h2>
               </FadeLeft>
 
               <FadeLeft delay={0.2}>
-                <p className="mt-2 text-[#5b525a] text-sm sm:text-base leading-relaxed max-w-xl">
+                <p className="mt-2 text-[#555555] text-sm sm:text-base leading-relaxed max-w-xl">
                   {description}
                 </p>
               </FadeLeft>
@@ -159,7 +159,7 @@ export default function AboutSection(props: AboutSectionProps) {
             <AboutTopAccentIcon />
           </div>
 
-          <div className="w-[1.5px] bg-[#cb5855]/70 h-full my-2 mr-8 sm:mr-10 md:mr-11 lg:mr-12" />
+          <div className="w-[1.5px] bg-[#FF773C]/70 h-full my-2 mr-8 sm:mr-10 md:mr-11 lg:mr-12" />
 
           <div className="w-full flex justify-end">
             <AboutBottomAccentIcon />

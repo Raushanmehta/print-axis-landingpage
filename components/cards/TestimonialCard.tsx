@@ -87,7 +87,7 @@ export default function TestimonialCard({
             <span
               key={i}
               className={`h-1.5 rounded-full transition-all duration-300 ${i === currentIndex
-                ? "w-6 bg-[#cb5855]"
+                ? "w-6 bg-[#FF773C]"
                 : "w-2 bg-white/20"
                 }`}
             />

@@ -1,7 +1,7 @@
 import React from "react";
 
 export function QuoteIcon({
-  className = "w-8 h-8 text-[#cb5855]",
+  className = "w-8 h-8 text-[#FF773C]",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

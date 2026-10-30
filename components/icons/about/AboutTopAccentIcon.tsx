@@ -1,7 +1,7 @@
 import React from "react";
 
 export function AboutTopAccentIcon({
-  className = "w-20 sm:w-32 md:w-32 lg:w-40 h-24 sm:h-28 md:h-32 lg:h-40 text-[#cb5855]",
+  className = "w-20 sm:w-32 md:w-32 lg:w-40 h-24 sm:h-28 md:h-32 lg:h-40 text-[#FF773C]",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

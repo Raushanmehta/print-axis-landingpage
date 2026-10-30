@@ -92,20 +92,20 @@ export default function HeroSection(props: HeroSectionProps) {
             <FadeDown delay={0.05}>
               <div className="flex items-center gap-3 mb-2">
                 <span
-                  className="w-10 h-[2px] bg-[#cb5855] rounded-full inline-block"
+                  className="w-10 h-[2px] bg-[#FF773C] rounded-full inline-block"
                   aria-hidden="true"
                 />
-                <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#8e4f5d] uppercase">
+                <span className="text-xs sm:text-[13px] font-bold tracking-[0.25em] text-[#FF773C] uppercase">
                   {tagline}
                 </span>
               </div>
             </FadeDown>
 
             <FadeUp delay={0.12}>
-              <h1 className="text-4xl sm:text-5xl lg:text-[54px] xl:text-[62px] font-extrabold tracking-tight leading-[1.08] text-[#241121]">
+              <h1 className="text-4xl sm:text-5xl lg:text-[54px] xl:text-[62px] font-extrabold tracking-tight leading-[1.08] text-[#111111]">
                 <span>{titlePart1}</span>
                 <br />
-                <span className="text-[#cb5855] inline-block my-1">
+                <span className="text-[#FF773C] inline-block my-1">
                   {titleHighlight}
                 </span>
                 <br />
@@ -114,7 +114,7 @@ export default function HeroSection(props: HeroSectionProps) {
             </FadeUp>
 
             <FadeUp delay={0.2}>
-              <p className="mt-2 text-[#5b525a] text-base sm:text-[17px] leading-relaxed max-w-lg">
+              <p className="mt-2 text-[#555555] text-base sm:text-[17px] leading-relaxed max-w-lg">
                 {description}
               </p>
             </FadeUp>
@@ -128,7 +128,7 @@ export default function HeroSection(props: HeroSectionProps) {
                 <AnimatedButton>
                   <Link
                     href={servicesButtonHref}
-                    className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-sm border-2 border-[#241121] bg-white/90 backdrop-blur-xs text-[#241121] font-semibold text-xs sm:text-sm tracking-wide uppercase hover:bg-black hover:border-black hover:text-white hover:shadow-md transition-all duration-300 cursor-pointer"
+                    className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-sm border-2 border-[#111111] bg-white/90 backdrop-blur-xs text-[#111111] font-semibold text-xs sm:text-sm tracking-wide uppercase hover:bg-black hover:border-black hover:text-white hover:shadow-md transition-all duration-300 cursor-pointer"
                   >
                     <span>{servicesButtonText}</span>
                     <span className="transition-transform duration-200 group-hover:translate-x-1 inline-flex items-center">
@@ -147,10 +147,10 @@ export default function HeroSection(props: HeroSectionProps) {
                       {renderHeroFeatureIcon(item.icon)}
                     </AnimatedIcon>
                     <div className="flex flex-col">
-                      <span className="text-[13px] font-bold text-[#241121] leading-tight">
+                      <span className="text-[13px] font-bold text-[#111111] leading-tight">
                         {item.line1}
                       </span>
-                      <span className="text-[13px] font-bold text-[#241121] leading-tight">
+                      <span className="text-[13px] font-bold text-[#111111] leading-tight">
                         {item.line2}
                       </span>
                     </div>

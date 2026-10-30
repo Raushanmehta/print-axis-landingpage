@@ -47,7 +47,7 @@ export const QuoteButton: React.FC<QuoteButtonProps> = ({
   );
 
   const baseClasses =
-    "group inline-flex items-center justify-center gap-2.5 px-7 py-3 sm:px-8 sm:py-3.5 rounded-sm bg-gradient-to-r from-[#ba4f4c] via-[#c85956] to-[#d66560] hover:from-black hover:via-black hover:to-black hover:bg-black hover:bg-none text-white shadow-md hover:shadow-lg active:scale-[0.98] transition-all duration-300 cursor-pointer";
+    "group inline-flex items-center justify-center gap-2.5 px-7 py-3 sm:px-8 sm:py-3.5 rounded-sm bg-gradient-to-r from-[#FF773C] via-[#FF8A50] to-[#FFA06A] hover:from-black hover:via-black hover:to-black hover:bg-black hover:bg-none text-white shadow-md hover:shadow-lg active:scale-[0.98] transition-all duration-300 cursor-pointer";
 
   if (href) {
     return (
@@ -108,14 +108,14 @@ export default function Navbar({
                   href={item.href}
                   className={`relative text-[15px] font-medium tracking-normal transition-colors duration-200 py-1 ${
                     isActive
-                      ? "text-[#c85956] font-semibold"
-                      : "text-[#2e1b2f] hover:text-[#c85956]"
+                      ? "text-[#FF773C] font-semibold"
+                      : "text-[#1A1A1A] hover:text-[#FF773C]"
                   }`}
                 >
                   {item.label}
                   {isActive && (
                     <span
-                      className="absolute -bottom-1.5 left-0 right-0 h-[2.5px] bg-[#c85956] rounded-full"
+                      className="absolute -bottom-1.5 left-0 right-0 h-[2.5px] bg-[#FF773C] rounded-full"
                       aria-hidden="true"
                     />
                   )}
@@ -134,7 +134,7 @@ export default function Navbar({
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-[#2e1b2f] hover:bg-gray-100 transition-colors focus:outline-none"
+              className="p-2 rounded-lg text-[#1A1A1A] hover:bg-gray-100 transition-colors focus:outline-none"
               aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
               aria-expanded={mobileMenuOpen}
             >
@@ -165,8 +165,8 @@ export default function Navbar({
                   onClick={() => setMobileMenuOpen(false)}
                   className={`py-2 px-3 rounded-lg text-base font-medium transition-colors ${
                     isActive
-                      ? "text-[#c85956] bg-red-50/50 font-semibold"
-                      : "text-[#2e1b2f] hover:bg-gray-50 hover:text-[#c85956]"
+                      ? "text-[#FF773C] bg-red-50/50 font-semibold"
+                      : "text-[#1A1A1A] hover:bg-gray-50 hover:text-[#FF773C]"
                   }`}
                 >
                   {item.label}

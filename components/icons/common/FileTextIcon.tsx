@@ -1,7 +1,7 @@
 import React from "react";
 
 export function FileTextIcon({
-  className = "w-6 h-6 text-[#cb5855]",
+  className = "w-6 h-6 text-[#FF773C]",
   ...props
 }: React.SVGProps<SVGSVGElement>) {
   return (

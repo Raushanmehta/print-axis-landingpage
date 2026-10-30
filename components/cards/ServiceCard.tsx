@@ -49,17 +49,17 @@ export default function ServiceCard({
         </div>
 
         {/* Floating Circular Icon Badge Overlapping Image with Spring Scale on Hover */}
-        <div className="relative -mt-8 ml-4 z-10 w-16 h-16 rounded-full bg-[#fdf0ef] border-2 border-white shadow-md flex items-center justify-center text-[#cb5855] transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
+        <div className="relative -mt-8 ml-4 z-10 w-16 h-16 rounded-full bg-[#FFF5F0] border-2 border-white shadow-md flex items-center justify-center text-[#FF773C] transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
           {service.icon}
         </div>
 
         {/* Card Text Content */}
         <div className="px-4 pb-1 pt-2">
-          <h3 className="text-base sm:text-lg font-bold text-[#241121] group-hover:text-[#cb5855] transition-colors duration-200">
+          <h3 className="text-base sm:text-lg font-bold text-[#111111] group-hover:text-[#FF773C] transition-colors duration-200">
             {service.title}
           </h3>
 
-          <p className="mt-1 text-xs sm:text-sm text-[#665e64] leading-relaxed line-clamp-3">
+          <p className="mt-1 text-xs sm:text-sm text-[#666666] leading-relaxed line-clamp-3">
             {service.description}
           </p>
         </div>
@@ -68,7 +68,7 @@ export default function ServiceCard({
       {/* Card Action Footer */}
       <div className="px-4 pb-4 pt-3 flex items-center justify-between border-t border-gray-50 mt-2">
         <ContactModal>
-          <span className="text-xs sm:text-sm font-semibold text-[#cb5855] inline-flex items-center gap-1.5 group/link cursor-pointer">
+          <span className="text-xs sm:text-sm font-semibold text-[#FF773C] inline-flex items-center gap-1.5 group/link cursor-pointer">
             <span>Get Quote</span>
             <span
               className="transition-transform duration-200 group-hover/link:translate-x-1.5"
@@ -83,7 +83,7 @@ export default function ServiceCard({
         <ContactModal>
           <span
             aria-label={`Get quote for ${service.title}`}
-            className="w-10 h-10 rounded-full border border-[#cb5855]/40 flex items-center justify-center text-[#cb5855] group-hover:border-black group-hover:bg-black group-hover:text-white hover:bg-black hover:border-black hover:text-white transition-all duration-300 shadow-xs cursor-pointer"
+            className="w-10 h-10 rounded-full border border-[#FF773C]/40 flex items-center justify-center text-[#FF773C] group-hover:border-black group-hover:bg-black group-hover:text-white hover:bg-black hover:border-black hover:text-white transition-all duration-300 shadow-xs cursor-pointer"
           >
             <ArrowRightIcon className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
           </span>
