@@ -35,10 +35,6 @@
                 "component": "PrintAxisCta1"
               },
               {
-                "key": "blog",
-                "component": "PrintAxisBlog1"
-              },
-              {
                 "key": "faqs",
                 "component": "PrintAxisFaq1"
               }
@@ -248,7 +244,7 @@
               "label": "OUR SERVICES",
               "href": "#services"
             },
-            "backgroundImage": "https://images.unsplash.com/photo-1562564055-71e051d33c19?auto=format&fit=crop&w=1400&q=85",
+            "backgroundImage": "/images/hero-banners.webp",
             "features": [
               {
                 "id": "quality",
@@ -284,15 +280,15 @@
               "href": "#services"
             },
             "largeImage": {
-              "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=85",
+              "src": "/images/about-machine.webp",
               "alt": "PrintAxis Industrial Digital Printing Press Machine"
             },
             "smallImage1": {
-              "src": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=600&q=85",
+              "src": "/images/about-brochures.webp",
               "alt": "PrintAxis Ideas Printed Brighter brochures"
             },
             "smallImage2": {
-              "src": "https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=600&q=85",
+              "src": "/images/about-packaging.webp",
               "alt": "PrintAxis Packaging & Mailing Boxes"
             }
           }
@@ -310,431 +306,57 @@
               "label": "REQUEST CUSTOM PRINT",
               "href": "#cta"
             },
+            "features": [
+              {
+                "id": "quality",
+                "title": "Ultra-HD Print Precision",
+                "icon": "quality"
+              },
+              {
+                "id": "stocks",
+                "title": "Custom Paper & Material Stocks",
+                "icon": "layers"
+              },
+              {
+                "id": "speed",
+                "title": "Rapid Same-Day Turnaround",
+                "icon": "speed"
+              }
+            ],
             "servicesList": [
               {
                 "id": "printing-services",
                 "title": "Digital Printing",
-                "mainTitlePart1": "Digital & Commercial Printing",
-                "mainTitleHighlight": "Services",
                 "description": "High-speed digital printing generating ultra-sharp commercial flyers, brochures, portfolios, and bespoke corporate stationery.",
-                "imageSrc": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=900&q=85",
+                "imageSrc": "/images/service-printing.webp",
                 "icon": "printer",
-                "href": "#cta",
-                "otherServicesTitle": "Other Services",
-                "detailDescription": "Experience crisp, high-definition digital and commercial printing tailored for modern businesses. From high-impact marketing collateral to vibrant flyers, brochures, and corporate documents, our advanced digital presses deliver rich color fidelity with rapid same-day turnaround.",
-                "heroImage": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=900&q=85",
-                "heroImageAlt": "High-speed modern digital printing production line",
-                "features": [
-                  {
-                    "id": "quality",
-                    "title": "Ultra-HD Print Precision",
-                    "description": "Razor-sharp 2400 DPI resolution for crisp typography and vivid graphics.",
-                    "icon": "quality"
-                  },
-                  {
-                    "id": "custom",
-                    "title": "Custom Paper Stocks",
-                    "description": "Choose from silky matte, high-gloss UV, and uncoated recycled stocks.",
-                    "icon": "custom"
-                  },
-                  {
-                    "id": "speed",
-                    "title": "Rapid Turnaround",
-                    "description": "Same-day digital printing with zero plate setup delays for urgent orders.",
-                    "icon": "speed"
-                  }
-                ],
-                "processTagline": "OUR PROCESS",
-                "processTitle": "How It Works",
-                "processSubtitle": "We make digital printing simple and reliable. From file upload to precision press and doorstep delivery.",
-                "processSteps": [
-                  {
-                    "stepNumber": "Step 01",
-                    "title": "Submit Artwork",
-                    "description": "Upload your print-ready PDF files or collaborate with our designers.",
-                    "icon": "share-design"
-                  },
-                  {
-                    "stepNumber": "Step 02",
-                    "title": "Digital Proofing",
-                    "description": "Receive a high-resolution proof to verify colors, trim, and alignment.",
-                    "icon": "preview"
-                  },
-                  {
-                    "stepNumber": "Step 03",
-                    "title": "High-Speed Press",
-                    "description": "Printed with calibrated pigment inks for stunning clarity and contrast.",
-                    "icon": "printing"
-                  },
-                  {
-                    "stepNumber": "Step 04",
-                    "title": "Finish & Ship",
-                    "description": "Trimmed, bound, packaged and safely dispatched to your address.",
-                    "icon": "delivery"
-                  }
-                ]
+                "href": "#cta"
               },
               {
                 "id": "3d-printing",
                 "title": "Additive 3D Prototyping",
-                "mainTitlePart1": "3D Printing & Rapid",
-                "mainTitleHighlight": "Prototyping",
                 "description": "Industrial-grade additive manufacturing delivering intricate functional prototypes, scale architectural models, and durable high-performance mechanical fixtures.",
-                "imageSrc": "https://images.unsplash.com/photo-1612815292565-9b87f8b78c96?auto=format&fit=crop&w=900&q=85",
+                "imageSrc": "/images/service-3d-printing.webp",
                 "icon": "3d",
-                "href": "#cta",
-                "otherServicesTitle": "Other Services",
-                "detailDescription": "Accelerate product development cycles and test concepts rapidly with high-precision 3D rapid prototyping. Using state-of-the-art SLA, SLS, and FDM additive manufacturing, we support engineering validation, architectural models, and custom functional parts with millimeter accuracy.",
-                "heroImage": "https://images.unsplash.com/photo-1612815292565-9b87f8b78c96?auto=format&fit=crop&w=900&q=85",
-                "heroImageAlt": "High precision 3D additive manufacturing prototyping",
-                "features": [
-                  {
-                    "id": "quality",
-                    "title": "Micron Layer Precision",
-                    "description": "Ultra-fine layer resolution capturing the most complex internal geometries.",
-                    "icon": "quality"
-                  },
-                  {
-                    "id": "custom",
-                    "title": "Engineering Materials",
-                    "description": "Tough ABS-like, flexible TPU, nylon, and heat-resistant engineering resins.",
-                    "icon": "custom"
-                  },
-                  {
-                    "id": "speed",
-                    "title": "Rapid Turnaround",
-                    "description": "Hold your CAD models in your hands within 24 to 48 hours.",
-                    "icon": "speed"
-                  }
-                ],
-                "processTagline": "OUR PROCESS",
-                "processTitle": "How It Works",
-                "processSubtitle": "From CAD model to physical functional prototype with industrial additive precision.",
-                "processSteps": [
-                  {
-                    "stepNumber": "Step 01",
-                    "title": "Upload 3D File",
-                    "description": "Send your STL, STEP, or OBJ model for immediate geometric review.",
-                    "icon": "share-design"
-                  },
-                  {
-                    "stepNumber": "Step 02",
-                    "title": "Slicing & Setup",
-                    "description": "We analyze wall thickness, overhangs, and optimize print orientation.",
-                    "icon": "preview"
-                  },
-                  {
-                    "stepNumber": "Step 03",
-                    "title": "Additive Print",
-                    "description": "Manufactured on industrial SLA/SLS machines for structural strength.",
-                    "icon": "printing"
-                  },
-                  {
-                    "stepNumber": "Step 04",
-                    "title": "Post-Processing",
-                    "description": "Support removal, UV curing, surface sanding, and secure delivery.",
-                    "icon": "delivery"
-                  }
-                ]
+                "href": "#cta"
               },
               {
                 "id": "offset-printing",
                 "title": "Commercial Lithography",
-                "mainTitlePart1": "High-Volume Offset",
-                "mainTitleHighlight": "Printing",
                 "description": "High-volume commercial lithography providing immaculate Pantone color consistency across enterprise publications.",
-                "imageSrc": "https://images.unsplash.com/photo-1504197832061-98de0e7f63d2?auto=format&fit=crop&w=900&q=85",
+                "imageSrc": "/images/service-offset.webp",
                 "icon": "offset",
-                "href": "#cta",
-                "otherServicesTitle": "Other Services",
-                "detailDescription": "The premier solution for large-scale commercial print runs. Our multi-unit Heidelberg offset presses guarantee unbeatable unit economy, flawless Pantone spot color matching, and consistent ink coverage across hundreds of thousands of catalogs, books, magazines, and marketing collaterals.",
-                "heroImage": "https://images.unsplash.com/photo-1504197832061-98de0e7f63d2?auto=format&fit=crop&w=900&q=85",
-                "heroImageAlt": "Industrial multi-color offset lithography printing press",
-                "features": [
-                  {
-                    "id": "quality",
-                    "title": "Pantone Spot Matching",
-                    "description": "Exact PMS spot colors and consistent ink density across massive runs.",
-                    "icon": "quality"
-                  },
-                  {
-                    "id": "custom",
-                    "title": "Custom Finishes",
-                    "description": "Spot UV, foil stamping, soft-touch lamination, and specialty varnishes.",
-                    "icon": "custom"
-                  },
-                  {
-                    "id": "speed",
-                    "title": "High-Speed Capacity",
-                    "description": "Blazing press speeds over 15,000 sheets per hour for bulk distribution.",
-                    "icon": "speed"
-                  }
-                ],
-                "processTagline": "OUR PROCESS",
-                "processTitle": "How It Works",
-                "processSubtitle": "Precision offset lithography built for massive volume and unmatched unit economy.",
-                "processSteps": [
-                  {
-                    "stepNumber": "Step 01",
-                    "title": "Prepress & Proof",
-                    "description": "Digital imposition, trapping, and CTP aluminum plate imaging.",
-                    "icon": "share-design"
-                  },
-                  {
-                    "stepNumber": "Step 02",
-                    "title": "Color Balancing",
-                    "description": "Ink fountain calibration for laser-accurate Pantone hue matching.",
-                    "icon": "preview"
-                  },
-                  {
-                    "stepNumber": "Step 03",
-                    "title": "Offset Run",
-                    "description": "High-speed multi-color printing with consistent sheet-fed registration.",
-                    "icon": "printing"
-                  },
-                  {
-                    "stepNumber": "Step 04",
-                    "title": "Cutting & Packing",
-                    "description": "Die-cutting, folding, saddle stitching, and palletized delivery.",
-                    "icon": "delivery"
-                  }
-                ]
+                "href": "#cta"
               },
               {
                 "id": "design-branding",
                 "title": "Identity & Prepress",
-                "mainTitlePart1": "Creative Design & Brand",
-                "mainTitleHighlight": "Identity",
                 "description": "Cohesive visual identity systems, corporate brand guidelines, and pre-press prep files.",
-                "imageSrc": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=900&q=85",
+                "imageSrc": "/images/service-branding.webp",
                 "icon": "design",
-                "href": "#cta",
-                "otherServicesTitle": "Other Services",
-                "detailDescription": "Build a memorable, cohesive brand presence that commands authority in your market. Our seasoned creative design team crafts bespoke visual identities, typography guidelines, vector logos, and complete corporate stationery kits engineered to connect with your target audience.",
-                "heroImage": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=900&q=85",
-                "heroImageAlt": "Creative brand identity mockup and design stationery",
-                "features": [
-                  {
-                    "id": "quality",
-                    "title": "Strategic Identity",
-                    "description": "Distinctive visual systems crafted around your positioning and values.",
-                    "icon": "quality"
-                  },
-                  {
-                    "id": "custom",
-                    "title": "Full Collateral Suite",
-                    "description": "Logo, stationery, business cards, letterheads, and brand guidelines.",
-                    "icon": "custom"
-                  },
-                  {
-                    "id": "speed",
-                    "title": "Production-Ready Files",
-                    "description": "Source vector files in CMYK and RGB optimized for both print and web.",
-                    "icon": "speed"
-                  }
-                ],
-                "processTagline": "OUR PROCESS",
-                "processTitle": "How It Works",
-                "processSubtitle": "We turn your brand story into unforgettable visual identity and marketing collateral.",
-                "processSteps": [
-                  {
-                    "stepNumber": "Step 01",
-                    "title": "Brand Discovery",
-                    "description": "We analyze your audience, competitive landscape, and brand vision.",
-                    "icon": "share-design"
-                  },
-                  {
-                    "stepNumber": "Step 02",
-                    "title": "Concept Exploration",
-                    "description": "Designers present multiple distinct logo and brand style routes.",
-                    "icon": "preview"
-                  },
-                  {
-                    "stepNumber": "Step 03",
-                    "title": "Refinement & Polish",
-                    "description": "Iterate on typography, color palettes, and real-world mockups.",
-                    "icon": "printing"
-                  },
-                  {
-                    "stepNumber": "Step 04",
-                    "title": "Asset Delivery",
-                    "description": "Full brand book, vector master files, and print-ready templates.",
-                    "icon": "delivery"
-                  }
-                ]
-              },
-              {
-                "id": "packaging-boxes",
-                "title": "Custom Rigid Packaging",
-                "mainTitlePart1": "Custom Packaging &",
-                "description": "Rigid luxury containers, folding carton solutions, and biodegradable corrugated shippers protecting merchandise.",
-                "imageSrc": "https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=600&q=85",
-                "icon": "packaging",
-                "href": "#cta",
-                "otherServicesTitle": "Other Services",
-                "detailDescription": "Elevate your product presentation and transform deliveries into an unforgettable unboxing event. We manufacture tailored corrugated mailers, luxury rigid gift boxes with magnetic closures, and folding cartons with foil stamping, embossing, and custom-cut protective foam inserts.",
-                "heroImage": "https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=600&q=85",
-                "heroImageAlt": "Luxury custom rigid packaging box with embossed branding",
-                "features": [
-                  {
-                    "id": "quality",
-                    "title": "Structural Integrity",
-                    "description": "Heavy-duty fluted corrugated boards tested for shipping transit safety.",
-                    "icon": "quality"
-                  },
-                  {
-                    "id": "custom",
-                    "title": "Luxury Embellishments",
-                    "description": "Spot UV, gold/silver foil stamping, soft-touch matte lamination, and emboss.",
-                    "icon": "custom"
-                  },
-                  {
-                    "id": "speed",
-                    "title": "Custom Dieline Fit",
-                    "description": "Tailored dielines and custom foam inserts engineered to fit your product.",
-                    "icon": "speed"
-                  }
-                ],
-                "processTagline": "OUR PROCESS",
-                "processTitle": "How It Works",
-                "processSubtitle": "Custom packaging engineered to protect your product and wow your customers.",
-                "processSteps": [
-                  {
-                    "stepNumber": "Step 01",
-                    "title": "Dieline & Sizing",
-                    "description": "We draft custom structural dielines matching your product specs.",
-                    "icon": "share-design"
-                  },
-                  {
-                    "stepNumber": "Step 02",
-                    "title": "3D Unboxing Proof",
-                    "description": "Approve digital 3D unboxing renders and structural sample prototypes.",
-                    "icon": "preview"
-                  },
-                  {
-                    "stepNumber": "Step 03",
-                    "title": "Printing & Die-Cut",
-                    "description": "High-definition vibrant printing, foil stamping, and precision cutting.",
-                    "icon": "printing"
-                  },
-                  {
-                    "stepNumber": "Step 04",
-                    "title": "Assembly & Ship",
-                    "description": "Flat-packed or pre-assembled boxes shipped securely to your warehouse.",
-                    "icon": "delivery"
-                  }
-                ]
-              },
-              {
-                "id": "apparel-printing",
-                "title": "Bespoke Custom Apparel Printing",
-                "mainTitlePart1": "T-Shirt & Apparel",
-                "mainTitleHighlight": "Printing",
-                "description": "Direct-to-film, screen printing, and embroidery apparel produced for company uniforms and merchandise.",
-                "imageSrc": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=900&q=85",
-                "icon": "apparel",
-                "href": "#cta",
-                "otherServicesTitle": "Other Services",
-                "detailDescription": "Bring your ideas to life with our premium T-shirt and custom apparel printing services. We offer high-quality Direct-to-Garment (DTG), screen printing, and sublimation for corporate uniforms, promotional event merchandise, sports teams, and personal apparel with vibrant, wash-resistant colors.",
-                "heroImage": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=900&q=85",
-                "heroImageAlt": "Direct-to-garment digital flatbed printing machine printing graphic on t-shirt",
-                "features": [
-                  {
-                    "id": "quality",
-                    "title": "Vibrant Wash-Resistant Inks",
-                    "description": "Oeko-Tex certified inks that withstand dozens of washes without fading.",
-                    "icon": "quality"
-                  },
-                  {
-                    "id": "custom",
-                    "title": "Premium Combed Cotton",
-                    "description": "Soft, breathable, preshrunk ring-spun cotton fabrics in all sizes.",
-                    "icon": "custom"
-                  },
-                  {
-                    "id": "speed",
-                    "title": "Flexible Order Quantities",
-                    "description": "From a single custom sample to bulk corporate merchandise runs.",
-                    "icon": "speed"
-                  }
-                ],
-                "processTagline": "OUR PROCESS",
-                "processTitle": "How It Works",
-                "processSubtitle": "We make custom apparel printing simple, fast, and high quality.",
-                "processSteps": [
-                  {
-                    "stepNumber": "Step 01",
-                    "title": "Share Your Design",
-                    "description": "Send us your logo, artwork, or vector graphic ideas.",
-                    "icon": "share-design"
-                  },
-                  {
-                    "stepNumber": "Step 02",
-                    "title": "Get a Preview",
-                    "description": "We create a digital t-shirt mockup for your sizing approval.",
-                    "icon": "preview"
-                  },
-                  {
-                    "stepNumber": "Step 03",
-                    "title": "Printing Process",
-                    "description": "Direct-to-garment or screen printed with rich, durable inks.",
-                    "icon": "printing"
-                  },
-                  {
-                    "stepNumber": "Step 04",
-                    "title": "Delivery",
-                    "description": "Your custom apparel is packaged, tagged, and delivered on time.",
-                    "icon": "delivery"
-                  }
-                ]
+                "href": "#cta"
               }
-            ],
-            "otherServices": [
-              {
-                "id": "digital-printing",
-                "name": "Digital & Commercial Printing",
-                "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=900&q=85",
-                "href": "/services/digital-printing"
-              },
-              {
-                "id": "3d-printing",
-                "name": "3D Printing & Prototyping",
-                "image": "https://images.unsplash.com/photo-1612815292565-9b87f8b78c96?auto=format&fit=crop&w=900&q=85",
-                "href": "/services/3d-printing"
-              },
-              {
-                "id": "offset-printing",
-                "name": "Bulk Offset Printing",
-                "image": "https://images.unsplash.com/photo-1504197832061-98de0e7f63d2?auto=format&fit=crop&w=900&q=85",
-                "href": "/services/offset-printing"
-              },
-              {
-                "id": "design-branding",
-                "name": "Creative Design & Branding",
-                "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=900&q=85",
-                "href": "/services/design-branding"
-              },
-              {
-                "id": "custom-packaging",
-                "name": "Custom Packaging & Boxes",
-                "image": "https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=600&q=85",
-                "href": "/services/custom-packaging"
-              },
-              {
-                "id": "apparel-printing",
-                "name": "Custom Apparel & T-Shirts",
-                "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=900&q=85",
-                "href": "/services/apparel-printing"
-              }
-            ],
-            "needHelpCta": {
-              "ctaTitle": "Need Help Custom",
-              "ctaDescription": "Talk to our printing expert to get assistance with your printing needs.",
-              "ctaImageSrc": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=900&q=85",
-              "ctaImageAlt": "Custom printed folded t-shirts stack",
-              "ctaButtonText": "Contact Us",
-              "ctaButtonHref": "/contact"
-            }
+            ]
           }
         }
       },
@@ -788,7 +410,7 @@
                 "role": "Founder, Mehta Creations",
                 "quote": "PrintAxis has been our go-to printing partner for all our marketing materials. The quality, attention to detail, and timely delivery are exceptional. Our brand looks more professional thanks to their amazing work.",
                 "rating": 5,
-                "imageSrc": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=85"
+                "imageSrc": "/images/testimonial-client.webp"
               },
               {
                 "id": "ananya-sharma",
@@ -796,7 +418,7 @@
                 "role": "Brand Director, Apex Studio",
                 "quote": "Working with PrintAxis transformed our packaging presentations. Their precision, color matching, and premium paper selections helped us win major retail partners with confidence.",
                 "rating": 5,
-                "imageSrc": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=85"
+                "imageSrc": "/images/testimonial-client-2.webp"
               },
               {
                 "id": "vikram-malhotra",
@@ -804,7 +426,7 @@
                 "role": "Managing Director, Vista Media",
                 "quote": "The speed and consistency of PrintAxis are unmatched. Whether large-format banners or urgent corporate brochures, they execute every project flawlessly with outstanding customer service.",
                 "rating": 5,
-                "imageSrc": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=85"
+                "imageSrc": "/images/testimonial-client-3.webp"
               }
             ]
           }
@@ -820,7 +442,7 @@
               "label": "Request Free Quote",
               "href": "#cta"
             },
-            "backgroundImageSrc": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=1400&q=85"
+            "backgroundImageSrc": "/images/cta-banner.webp"
           }
         }
       },

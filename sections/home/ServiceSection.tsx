@@ -130,11 +130,13 @@ export default function ServiceSection(props: ServiceSectionProps) {
     siteMap.service.servicesList ||
     [];
 
-  const rawFeatures =
-    props.features ||
-    (data as any)?.features ||
-    (rawServices[0] as any)?.features ||
-    [];
+  const rawFeatures = Array.isArray(props.features)
+    ? props.features
+    : Array.isArray((data as any)?.features)
+    ? (data as any)?.features
+    : Array.isArray((rawServices[0] as any)?.features)
+    ? (rawServices[0] as any)?.features
+    : [];
 
   const features: ServiceFeatureItem[] = (rawFeatures as any[]).map((f: any, idx: number) => ({
     id: f.id || `feat-${idx}`,

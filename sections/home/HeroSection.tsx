@@ -79,12 +79,16 @@ export default function HeroSection(props: HeroSectionProps) {
   return (
     <section
       id="home"
-      className="relative w-full overflow-hidden bg-white bg-cover bg-no-repeat bg-right lg:bg-center min-h-[400px] sm:min-h-[450px] lg:min-h-[450px] xl:min-h-[450px] flex items-center scroll-mt-20"
+      className="relative w-full overflow-hidden bg-white bg-cover bg-no-repeat bg-right lg:bg-right min-h-[400px] sm:min-h-[450px] lg:min-h-[450px] xl:min-h-[450px] flex items-center scroll-mt-20"
       style={{
         backgroundImage: `url('${backgroundImage}')`,
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/20 lg:hidden pointer-events-none z-0" />
+      {/* High-contrast overlay strictly behind left text area so right-side image remains 100% visible */}
+      <div
+        className="absolute inset-y-0 left-0 w-full sm:w-[80%] lg:w-[56%] xl:w-[50%] bg-gradient-to-r from-white via-white/95 via-70% to-transparent pointer-events-none z-0"
+        aria-hidden="true"
+      />
 
       <div className="relative z-10 max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-12 sm:py-14 lg:py-14 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
