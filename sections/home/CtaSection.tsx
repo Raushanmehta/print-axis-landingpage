@@ -41,9 +41,14 @@ export default function CtaSection(props: CtaSectionProps) {
         backgroundImage: `url('${backgroundImageSrc}')`,
       }}
     >
+      {/* High-contrast centered overlay strictly behind text area so background image remains visible around it */}
       <div
-        className="absolute inset-0 bg-white/75 sm:bg-transparent pointer-events-none lg:hidden"
+        className="absolute inset-0 pointer-events-none z-0"
         aria-hidden="true"
+        style={{
+          background:
+            "radial-gradient(ellipse 50% 50% at 50% 50%, rgba(27, 25, 25, 0.96) 0%, rgba(31, 30, 30, 0.85) 50%, rgba(255,255,255,0) 85%)",
+        }}
       />
 
       <div className="relative z-10 max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-8 lg:py-12 text-center flex flex-col items-center">
@@ -58,7 +63,7 @@ export default function CtaSection(props: CtaSectionProps) {
         </FadeUp>
 
         <FadeUp delay={0.16}>
-          <p className="mt-2 text-[#555555] text-sm sm:text-base leading-relaxed max-w-xl mx-auto">
+          <p className="mt-2 text-[#333333] font-medium text-sm sm:text-base leading-relaxed max-w-xl mx-auto">
             {description}
           </p>
         </FadeUp>
