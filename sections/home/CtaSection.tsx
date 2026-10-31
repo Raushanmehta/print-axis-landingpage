@@ -1,9 +1,6 @@
 "use client";
 
-import React from "react";
-import Link from "next/link";
 import { siteMap, PrintAxisCtaData } from "@/data";
-import { ArrowRightIcon } from "@/components/icons";
 import {
   FadeUp,
   AnimatedButton,
@@ -49,11 +46,12 @@ export default function CtaSection(props: CtaSectionProps) {
           background:
             "radial-gradient(ellipse 50% 50% at 50% 50%, rgba(27, 25, 25, 0.96) 0%, rgba(31, 30, 30, 0.85) 50%, rgba(255,255,255,0) 85%)",
         }}
+
       />
 
       <div className="relative z-10 max-w-[1420px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-8 lg:py-12 text-center flex flex-col items-center">
         <FadeUp delay={0.08}>
-          <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight leading-[1.12] text-[#111111]">
+          <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight leading-[1.12] text-white">
             <span>{titlePart1}</span>
             <br />
             <span className="text-[#FF773C] inline-block mt-1">
@@ -63,7 +61,7 @@ export default function CtaSection(props: CtaSectionProps) {
         </FadeUp>
 
         <FadeUp delay={0.16}>
-          <p className="mt-2 text-[#333333] font-medium text-sm sm:text-base leading-relaxed max-w-xl mx-auto">
+          <p className="mt-2 text-white font-medium text-sm sm:text-base leading-relaxed max-w-xl mx-auto">
             {description}
           </p>
         </FadeUp>
